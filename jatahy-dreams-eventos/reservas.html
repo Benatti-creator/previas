@@ -1,0 +1,387 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Datas disponíveis | Jatahy Dreams Eventos, Jataí-GO</title>
+<meta name="description" content="Veja as datas livres do salão Jatahy Dreams Eventos em Jataí-GO e peça a reserva da sua festa pelo WhatsApp. Página de demonstração.">
+<meta name="robots" content="noindex, nofollow">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%232b3340'/%3E%3Ctext x='32' y='45' font-family='Georgia,serif' font-style='italic' font-size='36' fill='%2337b3c6' text-anchor='middle'%3EJD%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Nunito+Sans:opsz,wght@6..12,400;6..12,600;6..12,700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --tinta:#232a36; --ardosia:#2b3340; --cinza:#5b6472; --linha:#dfe3e6;
+  --nuvem:#f5f6f3; --branco:#fff; --turquesa:#1f9bb0; --turquesa-esc:#137a8b; --turquesa-cl:#dff2f5;
+  --rosa:#e2457f; --rosa-cl:#fde7ef; --ambar:#b7791f; --ambar-cl:#fdf0d5;
+  --serif:"Fraunces",Georgia,serif; --sans:"Nunito Sans",system-ui,sans-serif; --script:"Great Vibes",cursive;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{overflow-x:clip}
+body{overflow-x:clip;font-family:var(--sans);color:var(--tinta);background:var(--nuvem);font-size:17px;line-height:1.6;-webkit-font-smoothing:antialiased}
+img{display:block;max-width:100%;height:auto}
+a{color:inherit}
+button,input,select,textarea{font:inherit;color:inherit}
+.wrap{max-width:1180px;margin:0 auto;padding:0 24px}
+h1,h2,h3{font-family:var(--serif);font-weight:600;line-height:1.12;letter-spacing:-.01em;color:var(--ardosia)}
+h2{font-size:clamp(28px,4vw,42px)}
+h3{font-size:20px}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;background:var(--turquesa-esc);color:#fff;text-decoration:none;font-weight:700;padding:15px 24px;border-radius:999px;border:0;cursor:pointer;transition:transform .2s,background .2s;box-shadow:0 8px 22px -10px rgba(19,122,139,.7)}
+.btn:hover{background:#0f6878;transform:translateY(-2px)}
+.btn:active{transform:translateY(0)}
+.btn svg{width:20px;height:20px;flex:none}
+.logo{display:flex;flex-direction:column;line-height:1;text-decoration:none}
+.logo b{font-family:var(--script);font-weight:400;font-size:34px;color:var(--turquesa)}
+.logo small{font-family:var(--serif);letter-spacing:.32em;font-size:10px;color:var(--cinza);margin:-2px 0 0 auto;padding-right:2px}
+
+.demo{background:var(--ambar-cl);color:#6b4a12;font-size:13.5px;text-align:center;padding:7px 16px;line-height:1.4}
+header{position:sticky;top:0;z-index:20;background:rgba(255,255,255,.94);backdrop-filter:blur(8px);border-bottom:1px solid var(--linha)}
+header .wrap{display:flex;align-items:center;justify-content:space-between;height:74px;gap:20px}
+nav{display:flex;gap:26px;font-weight:600;font-size:15px}
+nav a{text-decoration:none;color:var(--cinza)} nav a:hover,nav a[aria-current]{color:var(--turquesa-esc)}
+header .btn{padding:11px 18px;font-size:15px}
+
+/* topo da página */
+.cabeca{background:var(--ardosia);color:#fff;position:relative;overflow:hidden}
+.cabeca::after{content:"";position:absolute;width:300px;height:300px;border-radius:50%;right:-110px;top:-140px;background:radial-gradient(circle at 35% 30%,#7fe0ee,var(--turquesa) 60%);opacity:.25}
+.cabeca .wrap{position:relative;z-index:1;padding-top:52px;padding-bottom:96px}
+.cabeca .assin{font-family:var(--script);font-size:46px;color:#7fd3e0;line-height:1}
+.cabeca h1{color:#fff;font-size:clamp(32px,4.4vw,52px);margin:8px 0 12px;max-width:680px}
+.cabeca p{color:#d6dce2;max-width:560px}
+
+/* calendário */
+.agenda{display:grid;grid-template-columns:1.55fr 1fr;gap:28px;margin-top:-64px;position:relative;z-index:2;align-items:start}
+.cal{background:#fff;border:1px solid var(--linha);border-radius:22px;padding:26px;box-shadow:0 30px 60px -36px rgba(35,42,54,.45)}
+.cal-top{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:18px}
+.cal-top h2{font-size:clamp(24px,3vw,32px);text-transform:capitalize}
+.seta{width:46px;height:46px;border-radius:50%;border:1.5px solid var(--linha);background:#fff;display:grid;place-items:center;cursor:pointer;transition:border-color .2s,background .2s}
+.seta:hover:not(:disabled){border-color:var(--turquesa-esc);background:var(--turquesa-cl)}
+.seta:disabled{opacity:.35;cursor:default}
+.seta svg{width:20px;height:20px}
+.semana,.dias{display:grid;grid-template-columns:repeat(7,minmax(0,1fr));gap:8px}
+.semana span{text-align:center;font-size:13px;font-weight:700;color:var(--cinza);text-transform:uppercase;letter-spacing:.04em;padding-bottom:6px}
+.semana .fds{color:var(--rosa)}
+.dia{position:relative;height:72px;border-radius:14px;border:1.5px solid transparent;background:var(--nuvem);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:2px;font-weight:700;font-size:18px;cursor:default;padding:0}
+.dia small{font-size:10.5px;font-weight:700;letter-spacing:.02em;line-height:1}
+.dia.vazio{background:transparent}
+.dia.livre{background:var(--turquesa-cl);color:var(--turquesa-esc);border-color:#bfe4ea;cursor:pointer;transition:transform .15s,background .15s,border-color .15s}
+.dia.livre:hover{background:#c8eaf0;border-color:var(--turquesa-esc);transform:translateY(-2px)}
+.dia.livre.festa{background:#c9ecf2;border-color:#8fd0db}
+.dia.reservado{background:#eceef0;color:#9aa2ac;text-decoration:line-through;text-decoration-thickness:2px}
+.dia.reservado small{text-decoration:none}
+.dia.pre{background:var(--ambar-cl);color:var(--ambar);border-color:#f0d49a}
+.dia.passado{background:transparent;color:#c3c8ce;font-weight:600}
+.dia.hoje::after{content:"";position:absolute;top:7px;right:7px;width:7px;height:7px;border-radius:50%;background:var(--rosa)}
+.dia.sel{background:var(--turquesa-esc)!important;color:#fff!important;border-color:var(--turquesa-esc)!important}
+.dia:focus-visible,.seta:focus-visible,.btn:focus-visible{outline:3px solid var(--rosa);outline-offset:2px}
+.legenda{display:flex;flex-wrap:wrap;gap:10px 20px;margin-top:20px;padding-top:18px;border-top:1px solid var(--linha);font-size:14.5px;color:var(--cinza)}
+.legenda span{display:inline-flex;align-items:center;gap:8px}
+.legenda i{width:18px;height:18px;border-radius:6px;display:inline-block}
+.l-livre{background:var(--turquesa-cl);border:1.5px solid #8fd0db}
+.l-res{background:#eceef0;position:relative;overflow:hidden}
+.l-res::after{content:"";position:absolute;left:2px;right:2px;top:8px;height:2px;background:#9aa2ac}
+.l-pre{background:var(--ambar-cl);border:1.5px solid #f0d49a}
+.l-fds{background:var(--rosa);width:8px!important;height:8px!important;border-radius:50%!important}
+
+.lado{display:grid;gap:18px}
+.cartao{background:#fff;border:1px solid var(--linha);border-radius:20px;padding:24px}
+.cartao h3{margin-bottom:12px}
+.passos3{list-style:none;counter-reset:p;display:grid;gap:14px}
+.passos3 li{display:grid;grid-template-columns:34px 1fr;gap:12px;font-size:15.5px;color:var(--cinza);align-items:start}
+.passos3 li::before{counter-increment:p;content:counter(p);display:grid;place-items:center;width:34px;height:34px;border-radius:50%;background:var(--turquesa-cl);color:var(--turquesa-esc);font-family:var(--serif);font-weight:600}
+.passos3 b{color:var(--ardosia)}
+.foto-lado{border-radius:20px;width:100%;height:auto;aspect-ratio:4/3;object-fit:cover}
+
+/* folha */
+.veu{position:fixed;inset:0;background:rgba(35,42,54,.55);z-index:40;opacity:0;pointer-events:none;transition:opacity .25s}
+.veu.aberto{opacity:1;pointer-events:auto}
+.folha{position:fixed;z-index:41;background:#fff;top:0;right:0;bottom:0;width:min(460px,100%);overflow-y:auto;-webkit-overflow-scrolling:touch;overscroll-behavior:contain;transform:translateX(105%);transition:transform .32s cubic-bezier(.2,.8,.2,1);padding:26px 26px 30px;box-shadow:-20px 0 50px -20px rgba(0,0,0,.35)}
+.folha.aberto{transform:none}
+.folha-top{display:flex;justify-content:space-between;align-items:start;gap:14px}
+.folha .kicker{font-size:13px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--turquesa-esc)}
+.folha h2{font-size:26px;margin-top:4px}
+.fechar{width:42px;height:42px;border-radius:50%;border:1.5px solid var(--linha);background:#fff;cursor:pointer;display:grid;place-items:center;flex:none}
+.fechar svg{width:18px;height:18px}
+.alca{display:none}
+form{display:grid;gap:14px;margin-top:20px}
+label{display:grid;gap:6px;font-weight:700;font-size:14.5px;color:var(--ardosia)}
+input,select,textarea{width:100%;border:1.5px solid var(--linha);border-radius:12px;padding:12px 14px;background:var(--nuvem);font-size:16px;font-weight:400;transition:border-color .2s}
+input:focus,select:focus,textarea:focus{outline:none;border-color:var(--turquesa-esc);background:#fff}
+textarea{min-height:72px;resize:vertical}
+.duas{display:grid;grid-template-columns:1.4fr 1fr;gap:12px}
+@media (max-width:480px){.duas{grid-template-columns:1fr}}
+.turno{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.turno input{position:absolute;opacity:0;pointer-events:none}
+.turno label{display:block;text-align:center;border:1.5px solid var(--linha);border-radius:12px;padding:11px 8px;cursor:pointer;font-weight:700;background:var(--nuvem)}
+.turno label small{display:block;font-weight:400;color:var(--cinza);font-size:12.5px}
+.turno input:checked+label{border-color:var(--turquesa-esc);background:var(--turquesa-cl);color:var(--turquesa-esc)}
+.turno input:focus-visible+label{outline:3px solid var(--rosa)}
+fieldset{border:0;display:grid;gap:6px}
+legend{font-weight:700;font-size:14.5px;color:var(--ardosia);margin-bottom:6px}
+.resumo{background:var(--nuvem);border:1px solid var(--linha);border-radius:16px;padding:18px;margin-top:4px}
+.resumo h3{font-size:18px;margin-bottom:8px}
+.resumo dl{display:grid;grid-template-columns:auto 1fr;gap:4px 12px;font-size:15px}
+.resumo dt{color:var(--cinza)} .resumo dd{font-weight:700;text-align:right}
+.sinal{margin:14px 0;padding:12px 14px;border-radius:12px;background:var(--ambar-cl);color:#6b4a12;font-size:15px}
+.sinal b{display:block;font-size:16px}
+.resumo .passos3 li{font-size:14.5px}
+.erro{color:#b42318;font-size:14px;font-weight:600;min-height:1em}
+.folha .btn{width:100%}
+.nota-wa{font-size:13px;color:var(--cinza);text-align:center}
+
+/* como fica */
+.sec{padding:88px 0}
+.versao{background:#fff;border-top:1px solid var(--linha)}
+.versao .intro{color:var(--cinza);max-width:600px;margin-top:12px}
+.tres{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:38px}
+.tres article{background:var(--nuvem);border:1px solid var(--linha);border-radius:20px;padding:26px}
+.tres .ic{display:grid;place-items:center;width:50px;height:50px;border-radius:14px;background:var(--turquesa-esc);color:#fff;margin-bottom:16px}
+.tres .ic svg{width:25px;height:25px}
+.tres h3{margin-bottom:8px}
+.tres p{color:var(--cinza);font-size:15.5px}
+.volta{margin-top:34px;display:flex;gap:14px;flex-wrap:wrap}
+.btn-claro{background:transparent;color:var(--ardosia);box-shadow:none;border:1.5px solid var(--ardosia)}
+.btn-claro:hover{background:var(--ardosia);color:#fff}
+
+footer{background:var(--tinta);color:#9aa5b1;font-size:14px}
+footer .wrap{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap;padding-top:26px;padding-bottom:26px}
+footer a{color:#cfd6dd}
+
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+@media (max-width:960px){
+  nav{display:none}
+  .agenda{grid-template-columns:1fr}
+  .tres{grid-template-columns:1fr}
+}
+@media (max-width:640px){
+  body{font-size:16px}
+  .wrap{padding:0 14px}
+  header .wrap{height:64px}
+  header .btn{padding:9px 14px;font-size:14px}
+  header .btn svg{display:none}
+  .logo b{font-size:28px}
+  .cabeca .wrap{padding-top:34px;padding-bottom:84px}
+  .cabeca .assin{font-size:38px}
+  .cabeca h1{font-size:31px}
+  .cal{padding:16px 12px;border-radius:18px}
+  .semana,.dias{gap:5px}
+  .semana span{font-size:11.5px;letter-spacing:0}
+  .dia{height:50px;border-radius:11px;font-size:16px}
+  .dia small{display:none}
+  .seta{width:42px;height:42px}
+  .legenda{font-size:13.5px;gap:8px 14px}
+  .foto-lado{display:none}
+  .sec{padding:64px 0}
+  .folha{top:auto;left:0;right:0;width:100%;max-height:92vh;max-height:92dvh;border-radius:22px 22px 0 0;transform:translateY(105%);padding:10px 18px calc(22px + env(safe-area-inset-bottom))}
+  .alca{display:block;width:44px;height:5px;border-radius:9px;background:var(--linha);margin:0 auto 12px}
+  .folha h2{font-size:23px}
+}
+@media print{.veu,.folha,header{display:none}}
+</style>
+</head>
+<body>
+<div class="demo" role="note">Demonstração: as datas e valores desta página são ilustrativos</div>
+<header>
+  <div class="wrap">
+    <a class="logo" href="index.html" aria-label="Jatahy Dreams Eventos, início"><b>Jatahy Dreams</b><small>EVENTOS</small></a>
+    <nav aria-label="Seções">
+      <a href="index.html#festas">Festas</a><a href="index.html#espaco">O espaço</a><a href="index.html#reservar">Como reservar</a><a href="index.html#avaliacoes">Avaliações</a><a href="index.html#local">Onde fica</a><a href="reservas.html" aria-current="page">Datas</a>
+    </nav>
+    <a class="btn" href="https://wa.me/5564996051331?text=Ol%C3%A1!%20Vi%20o%20site%20e%20quero%20saber%20sobre%20datas%20e%20or%C3%A7amento%20para%20uma%20festa." target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm5.6 14.2c-.2.7-1.4 1.3-2 1.4-.5.1-1.2.1-1.9-.1-.4-.1-1-.3-1.7-.6-3-1.3-4.9-4.3-5.1-4.5-.1-.2-1.2-1.6-1.2-3s.8-2.2 1-2.5c.3-.3.6-.4.8-.4h.6c.2 0 .4 0 .6.5l.9 2.1c.1.2.1.4 0 .5l-.3.5-.4.5c-.1.1-.3.3-.1.6.2.3.8 1.3 1.6 2.1 1.1 1 2 1.3 2.3 1.4.3.1.5.1.6-.1l.9-1.1c.2-.3.4-.2.6-.1l2 1c.3.1.5.2.5.3.1.1.1.6-.1 1.4Z"/></svg>WhatsApp</a>
+  </div>
+</header>
+
+<main>
+<section class="cabeca">
+  <div class="wrap">
+    <div class="assin" aria-hidden="true">Jatahy Dreams</div>
+    <h1>Escolha a data da sua festa</h1>
+    <p>Os dias em turquesa estão livres no salão. Toque em um deles para pedir a reserva pelo WhatsApp, já com a data e os detalhes da festa.</p>
+  </div>
+</section>
+
+<div class="wrap agenda">
+  <section class="cal" aria-labelledby="mes">
+    <div class="cal-top">
+      <button class="seta" id="ant" type="button" aria-label="Mês anterior"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 5l-7 7 7 7"/></svg></button>
+      <h2 id="mes" aria-live="polite">Mês</h2>
+      <button class="seta" id="prox" type="button" aria-label="Próximo mês"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 5l7 7-7 7"/></svg></button>
+    </div>
+    <div class="semana" aria-hidden="true"><span>Dom</span><span>Seg</span><span>Ter</span><span>Qua</span><span>Qui</span><span class="fds">Sex</span><span class="fds">Sáb</span></div>
+    <div class="dias" id="dias"></div>
+    <div class="legenda">
+      <span><i class="l-livre"></i>Disponível</span>
+      <span><i class="l-res"></i>Reservado</span>
+      <span><i class="l-pre"></i>Pré-reserva, aguardando sinal</span>
+      <span><i class="l-fds"></i>Sex, sáb e dom: dias de festa</span>
+    </div>
+  </section>
+
+  <aside class="lado">
+    <img class="foto-lado" src="img/salao.webp" width="1800" height="1012" alt="Salão da Jatahy Dreams com mesas, mezanino e brinquedoteca">
+    <div class="cartao">
+      <h3>Como a reserva funciona</h3>
+      <ol class="passos3">
+        <li><span><b>Envie o pedido</b> da data pelo botão, direto no WhatsApp da Jatahy.</span></li>
+        <li><span><b>A Jatahy confirma</b> a data e manda o Pix do sinal.</span></li>
+        <li><span><b>Com o sinal pago</b>, a data fica reservada no calendário.</span></li>
+      </ol>
+    </div>
+  </aside>
+</div>
+
+<section class="sec versao" style="margin-top:88px">
+  <div class="wrap">
+    <h2>Como fica para a Jatahy</h2>
+    <p class="intro">Na versão real, o calendário mostra a agenda de verdade do salão.</p>
+    <div class="tres">
+      <article><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="6" y="2" width="12" height="20" rx="2.5"/><path d="M10 18h4"/></svg></span><h3>Agenda marcada no celular</h3><p>A Jatahy marca as datas reservadas num painel simples no celular, e o calendário do site atualiza sozinho.</p></article>
+      <article><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="16" rx="3"/><path d="M3 10h18M8 3v4M16 3v4M9 15l2 2 4-4"/></svg></span><h3>Pedido só de data livre</h3><p>O cliente só consegue pedir dias disponíveis. Data reservada aparece riscada e não abre o pedido.</p></article>
+      <article><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12a8 8 0 0 1-11.6 7.1L4 20.5l1.4-4.9A8 8 0 1 1 21 12Z"/><path d="M9 12h6"/></svg></span><h3>Menos "tem o dia tal?"</h3><p>O pedido chega no WhatsApp com data, tipo de festa, convidados e horário. Sobra menos conversa repetida.</p></article>
+    </div>
+    <div class="volta">
+      <a class="btn btn-claro" href="index.html">Voltar ao site</a>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <span>Jatahy Dreams Eventos · R. W-005, 613 · Setor Epaminondas I · Jataí - GO</span>
+    <a href="https://wa.me/5564996051331" target="_blank" rel="noopener">(64) 99605-1331</a>
+  </div>
+</footer>
+
+<div class="veu" id="veu"></div>
+<div class="folha" id="folha" role="dialog" aria-modal="true" aria-labelledby="f-data" aria-hidden="true">
+  <div class="alca" aria-hidden="true"></div>
+  <div class="folha-top">
+    <div><div class="kicker">Data escolhida</div><h2 id="f-data">Sábado</h2></div>
+    <button class="fechar" id="fechar" type="button" aria-label="Fechar"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg></button>
+  </div>
+  <form id="form" novalidate>
+    <label>Seu nome<input id="nome" name="nome" autocomplete="name" placeholder="Como podemos te chamar" required></label>
+    <div class="duas">
+      <label>Tipo de festa<select id="tipo" name="tipo"><option>Aniversário infantil</option><option>15 anos</option><option>Confraternização</option><option>Outro</option></select></label>
+      <label>Convidados<input id="conv" name="conv" type="number" inputmode="numeric" min="1" placeholder="Ex.: 80"></label>
+    </div>
+    <fieldset>
+      <legend>Horário desejado</legend>
+      <div class="turno">
+        <input type="radio" name="turno" id="t1" value="Tarde" checked><label for="t1">Tarde<small>a partir das 14h</small></label>
+        <input type="radio" name="turno" id="t2" value="Noite"><label for="t2">Noite<small>a partir das 19h</small></label>
+      </div>
+    </fieldset>
+    <label>Observações<textarea id="obs" name="obs" placeholder="Tema, decoração, dúvidas"></textarea></label>
+    <div class="resumo">
+      <h3>Resumo do pedido</h3>
+      <dl><dt>Data</dt><dd id="r-data">-</dd><dt>Festa</dt><dd id="r-tipo">-</dd><dt>Horário</dt><dd id="r-turno">-</dd></dl>
+      <div class="sinal"><b>Sinal para garantir a data: 30% (exemplo)</b>O valor da festa é combinado com a Jatahy no WhatsApp.</div>
+      <ol class="passos3">
+        <li><span><b>Envie o pedido</b> por este botão.</span></li>
+        <li><span><b>A Jatahy confirma</b> a data e manda o Pix do sinal.</span></li>
+        <li><span><b>Com o sinal pago</b>, a data fica reservada no calendário.</span></li>
+      </ol>
+    </div>
+    <p class="erro" id="erro" aria-live="polite"></p>
+    <a class="btn" id="enviar" href="https://wa.me/5564996051331" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm5.6 14.2c-.2.7-1.4 1.3-2 1.4-.5.1-1.2.1-1.9-.1-.4-.1-1-.3-1.7-.6-3-1.3-4.9-4.3-5.1-4.5-.1-.2-1.2-1.6-1.2-3s.8-2.2 1-2.5c.3-.3.6-.4.8-.4h.6c.2 0 .4 0 .6.5l.9 2.1c.1.2.1.4 0 .5l-.3.5-.4.5c-.1.1-.3.3-.1.6.2.3.8 1.3 1.6 2.1 1.1 1 2 1.3 2.3 1.4.3.1.5.1.6-.1l.9-1.1c.2-.3.4-.2.6-.1l2 1c.3.1.5.2.5.3.1.1.1.6-.1 1.4Z"/></svg>Pedir reserva desta data</a>
+    <p class="nota-wa">Abre o WhatsApp com a mensagem pronta. A data só fica reservada depois da confirmação e do sinal.</p>
+  </form>
+</div>
+
+<script>
+/* ===== DADOS DE EXEMPLO: troque por uma planilha depois =====
+   estado: "reservado" ou "pre" (pré-reserva, aguardando sinal).
+   Dias que não estão aqui ficam disponíveis. */
+var DATAS = [
+  {data:"2026-11-07",estado:"reservado"},{data:"2026-11-14",estado:"pre"},{data:"2026-11-15",estado:"pre"},
+  {data:"2026-11-20",estado:"reservado"},{data:"2026-11-21",estado:"reservado"},{data:"2026-11-28",estado:"reservado"},
+  {data:"2026-12-05",estado:"reservado"},{data:"2026-12-06",estado:"pre"},{data:"2026-12-11",estado:"reservado"},
+  {data:"2026-12-12",estado:"reservado"},{data:"2026-12-19",estado:"reservado"},{data:"2026-12-20",estado:"pre"},
+  {data:"2027-01-10",estado:"pre"},{data:"2027-01-16",estado:"reservado"},{data:"2027-01-30",estado:"reservado"},
+  {data:"2027-02-06",estado:"reservado"},{data:"2027-02-13",estado:"reservado"},{data:"2027-02-21",estado:"pre"},
+  {data:"2027-03-13",estado:"reservado"},{data:"2027-03-14",estado:"pre"}
+];
+var WHATS = "5564996051331";
+var MESES_A_FRENTE = 11;
+
+var mapa = {}; DATAS.forEach(function(d){ mapa[d.data] = d.estado; });
+var MES = ["janeiro","fevereiro","março","abril","maio","junho","julho","agosto","setembro","outubro","novembro","dezembro"];
+var SEM = ["domingo","segunda-feira","terça-feira","quarta-feira","quinta-feira","sexta-feira","sábado"];
+var hoje = new Date(); hoje.setHours(0,0,0,0);
+var base = new Date(hoje.getFullYear(), hoje.getMonth(), 1);
+var desloc = 0, escolhido = null, gatilho = null;
+var $ = function(id){ return document.getElementById(id); };
+function iso(d){ return d.getFullYear()+"-"+String(d.getMonth()+1).padStart(2,"0")+"-"+String(d.getDate()).padStart(2,"0"); }
+function longa(d){ return SEM[d.getDay()]+", "+d.getDate()+" de "+MES[d.getMonth()]; }
+
+function desenha(){
+  var m = new Date(base.getFullYear(), base.getMonth()+desloc, 1);
+  $("mes").textContent = MES[m.getMonth()]+" "+m.getFullYear();
+  $("ant").disabled = desloc<=0; $("prox").disabled = desloc>=MESES_A_FRENTE;
+  var g = $("dias"); g.innerHTML = "";
+  for(var i=0;i<m.getDay();i++){ var v=document.createElement("span"); v.className="dia vazio"; g.appendChild(v); }
+  var n = new Date(m.getFullYear(), m.getMonth()+1, 0).getDate();
+  for(var d=1; d<=n; d++){
+    var dt = new Date(m.getFullYear(), m.getMonth(), d), k = iso(dt), w = dt.getDay();
+    var b = document.createElement("button"); b.type="button"; b.className="dia";
+    var festa = w===0||w===5||w===6, est, rot;
+    if(dt<hoje){ est="passado"; rot="passou"; }
+    else if(mapa[k]==="reservado"){ est="reservado"; rot="reservado"; }
+    else if(mapa[k]==="pre"){ est="pre"; rot="pré-reserva"; }
+    else { est="livre"; rot="disponível"; }
+    b.classList.add(est); if(festa) b.classList.add("festa");
+    if(+dt===+hoje) b.classList.add("hoje");
+    if(escolhido===k) b.classList.add("sel");
+    b.innerHTML = d + (est!=="passado" ? "<small>"+(est==="livre"?"livre":est==="pre"?"sinal":"reserv.")+"</small>" : "");
+    b.setAttribute("aria-label", longa(dt)+": "+rot);
+    if(est==="livre"){ b.dataset.k=k; b.addEventListener("click", abre); } else { b.disabled = true; }
+    g.appendChild(b);
+  }
+}
+$("ant").onclick=function(){ if(desloc>0){desloc--;desenha();} };
+$("prox").onclick=function(){ if(desloc<MESES_A_FRENTE){desloc++;desenha();} };
+
+function abre(e){
+  gatilho = e.currentTarget; escolhido = gatilho.dataset.k;
+  var p = escolhido.split("-"), dt = new Date(+p[0], +p[1]-1, +p[2]);
+  var t = longa(dt); $("f-data").textContent = t.charAt(0).toUpperCase()+t.slice(1);
+  desenha(); atualiza(); $("erro").textContent="";
+  $("veu").classList.add("aberto"); $("folha").classList.add("aberto"); $("folha").setAttribute("aria-hidden","false");
+  document.body.style.overflow="hidden";
+  setTimeout(function(){ $("fechar").focus({preventScroll:true}); }, 340);
+}
+function fecha(){
+  $("veu").classList.remove("aberto"); $("folha").classList.remove("aberto"); $("folha").setAttribute("aria-hidden","true");
+  document.body.style.overflow="";
+  var alvo = document.querySelector('.dia[data-k="'+escolhido+'"]'); if(alvo) alvo.focus({preventScroll:true});
+}
+$("fechar").onclick=fecha; $("veu").onclick=fecha;
+document.addEventListener("keydown", function(e){ if(e.key==="Escape" && $("folha").classList.contains("aberto")) fecha(); });
+
+function turno(){ return document.querySelector('input[name="turno"]:checked').value; }
+function atualiza(){
+  $("r-data").textContent = $("f-data").textContent.replace(/^(\S+)-feira/,"$1");
+  $("r-tipo").textContent = $("tipo").value + ($("conv").value ? " · "+$("conv").value+" pessoas" : "");
+  $("r-turno").textContent = turno();
+  var txt = "Olá, Jatahy Dreams! Vi o calendário no site e quero pedir a reserva desta data:\n"
+    + "Data: " + $("f-data").textContent + "\n"
+    + "Tipo de festa: " + $("tipo").value + "\n"
+    + "Convidados: " + ($("conv").value || "a definir") + "\n"
+    + "Horário: " + turno() + "\n"
+    + "Nome: " + ($("nome").value.trim() || "-")
+    + ($("obs").value.trim() ? "\nObservações: " + $("obs").value.trim() : "");
+  $("enviar").href = "https://wa.me/"+WHATS+"?text="+encodeURIComponent(txt);
+}
+$("form").addEventListener("input", atualiza);
+$("form").addEventListener("change", atualiza);
+$("form").addEventListener("submit", function(e){ e.preventDefault(); $("enviar").click(); });
+$("enviar").addEventListener("click", function(e){
+  if(!$("nome").value.trim()){ e.preventDefault(); $("erro").textContent="Escreva seu nome para a Jatahy saber quem está pedindo."; $("nome").focus(); }
+});
+desenha();
+</script>
+</body>
+</html>
