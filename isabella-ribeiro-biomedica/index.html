@@ -87,8 +87,14 @@ h2{font-size:clamp(2.1rem,4.4vw,3.3rem)}
 .lista h3{font-size:clamp(1.45rem,2.6vw,1.9rem)}
 .lista li span{font-size:.88rem;color:var(--suave);text-align:right}
 .lista li:hover h3{color:var(--verde)}
-.proc .depois{margin-top:30px;display:flex;flex-wrap:wrap;gap:18px;align-items:center}
+.proc .depois{margin-top:30px;display:flex;flex-wrap:wrap;gap:18px;align-items:center;justify-content:space-between;padding-top:24px;border-top:1px solid var(--linha)}
 .proc .depois p{font-size:.95rem;color:var(--suave);max-width:36ch}
+.pgrade{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:34px}
+.pgrade article{background:var(--areia);border:1px solid var(--linha);border-radius:18px;padding:24px 22px 22px;transition:border-color .3s,transform .3s,background .3s}
+.pgrade article:hover{border-color:var(--ouro);background:#f7f1e8;transform:translateY(-3px)}
+.pgrade svg{width:38px;height:38px;fill:none;stroke:#9a7a3f;stroke-width:1.3;stroke-linecap:round;stroke-linejoin:round;display:block}
+.pgrade h3{font-size:1.32rem;margin:16px 0 8px;color:var(--cafe)}
+.pgrade p{color:var(--suave);font-size:.94rem;line-height:1.5}
 
 /* sobre */
 .sobre{padding:100px 0;background:var(--areia2)}
@@ -110,13 +116,21 @@ h2{font-size:clamp(2.1rem,4.4vw,3.3rem)}
 .passos header{max-width:640px}
 .passos h2{margin:14px 0 14px}
 .passos header p{color:var(--suave)}
-.trilha{display:grid;grid-template-columns:repeat(2,1fr);gap:28px;margin-top:48px;counter-reset:p}
-.trilha li{list-style:none;position:relative;padding-top:64px}
-.trilha li::before{counter-increment:p;content:counter(p);position:absolute;top:0;left:0;width:46px;height:46px;border-radius:50%;border:1.5px solid var(--ouro);display:grid;place-items:center;font:400 1.3rem/1 "Gilda Display",serif;color:var(--verde)}
-.trilha li::after{content:"";position:absolute;top:23px;left:62px;right:-14px;height:1px;background:var(--linha)}
-.trilha li:last-child::after{display:none}
-.trilha h3{font-size:1.5rem;margin-bottom:8px}
-.trilha p{color:var(--suave);font-size:.98rem}
+.pcorpo{display:grid;grid-template-columns:1.15fr .85fr;gap:64px;margin-top:52px;align-items:center}
+.trilha{list-style:none;display:grid;gap:0}
+.trilha li{position:relative;display:grid;grid-template-columns:76px 1fr;gap:22px;padding-bottom:38px}
+.trilha li:last-child{padding-bottom:0}
+.trilha li::before{content:"";position:absolute;left:37px;top:70px;bottom:6px;width:1.5px;background:linear-gradient(var(--ouro),rgba(196,160,99,.35))}
+.trilha li:last-child::before{display:none}
+.trilha .n{width:76px;height:76px;border-radius:50%;border:1.5px solid var(--ouro);background:var(--branco);display:grid;place-items:center;font:400 2.6rem/1 "Gilda Display",serif;color:var(--verde)}
+.trilha h3{font-size:1.6rem;margin:16px 0 6px}
+.trilha p{color:var(--suave);font-size:1rem;max-width:42ch}
+.pfoto{position:relative;border-radius:22px;overflow:hidden;background:var(--cafe);padding:44px 36px 36px}
+.pfoto figcaption{position:static;background:none;padding:0;border:0}
+.pfoto b{display:block;font:400 2rem/1.1 "Gilda Display",serif;color:#f6efe4}
+.pfoto span{display:block;font-size:.95rem;color:#d9cdb8;margin:12px 0 0;line-height:1.6}
+.pfoto .nota5{color:#e3c98d;margin:18px 0 26px;font-size:.9rem}
+.pfoto .btn{width:100%;justify-content:center}
 
 /* avaliações */
 .aval{padding:100px 0;background:var(--verde);color:#f4ede2}
@@ -146,17 +160,6 @@ h2{font-size:clamp(2.1rem,4.4vw,3.3rem)}
 .cartoes h3{font-size:1.42rem;margin:14px 0 10px}
 .cartoes p{color:var(--suave);font-size:.95rem}
 
-/* galeria */
-.galeria{padding:100px 0;background:var(--branco)}
-.galeria .cab{display:flex;justify-content:space-between;align-items:end;gap:24px;flex-wrap:wrap}
-.galeria h2{margin-top:14px}
-.galeria .cab p{color:var(--suave);max-width:38ch}
-.faixa{display:grid;grid-template-columns:1fr 1fr;max-width:820px;gap:16px;margin-top:40px;align-items:stretch}
-.faixa figure{position:relative;border-radius:18px;overflow:hidden;background:var(--areia2)}
-.faixa img{width:100%;height:100%;min-height:340px;object-fit:cover;transition:transform .6s ease}
-.faixa figure:hover img{transform:scale(1.04)}
-.faixa figcaption{position:absolute;left:12px;bottom:12px;background:rgba(252,250,246,.94);border-radius:999px;padding:7px 14px;font-size:.8rem;font-weight:600;color:var(--cafe)}
-.faixa figure:first-child img{object-position:50% 15%}
 
 /* dúvidas */
 .faq{padding:100px 0;background:var(--areia2)}
@@ -211,12 +214,10 @@ footer b{color:#fff;font:400 1.15rem/1.2 "Gilda Display",serif;display:block;mar
   .menu{display:none}
   .hero .wrap,.proc .wrap,.sobre .wrap,.aval .wrap,.onde .grade{grid-template-columns:1fr}
   .proc .foto{position:static}
-  .trilha{grid-template-columns:1fr;gap:30px}
-  .trilha li{padding:0 0 0 66px;min-height:46px}
-  .trilha li::after{display:none}
+  .pcorpo{grid-template-columns:1fr;gap:44px}
+  .pfoto{max-width:520px}
   .cartoes{grid-template-columns:1fr}
   .faq .wrap{grid-template-columns:1fr;gap:30px}
-  .faixa{grid-template-columns:1fr 1fr}
 }
 @media (max-width:720px){
   body{font-size:16px;padding-bottom:76px}
@@ -243,14 +244,16 @@ footer b{color:#fff;font:400 1.15rem/1.2 "Gilda Display",serif;display:block;mar
   .depos p{font-size:1.15rem}
   .onde .acoes .btn{width:100%}
   .fecha{padding:70px 0}
-  .prof,.galeria,.faq{padding:68px 0}
+  .prof,.faq{padding:68px 0}
   .cartoes{grid-template-columns:1fr;gap:14px;margin-top:32px}
   .cartoes article{padding:22px 20px}
+  .proc .depois{flex-direction:column;align-items:stretch}
+  .proc .depois .btn{width:100%;justify-content:center}
+  .trilha li{grid-template-columns:58px 1fr;gap:16px;padding-bottom:30px}
+  .trilha .n{width:58px;height:58px;font-size:2rem}
+  .trilha li::before{left:28px;top:56px}
+  .trilha h3{font-size:1.38rem;margin-top:10px}
   .depos{grid-template-columns:1fr}
-  .faixa{grid-template-columns:1fr 1fr;gap:10px;margin-top:28px}
-  .faixa img{min-height:0;aspect-ratio:1/1.1}
-  .faixa figure:first-child img{aspect-ratio:4/3.4}
-  .faixa figcaption{left:8px;bottom:8px;font-size:.72rem;padding:5px 10px}
   .faq summary{font-size:1.18rem;padding:18px 0}
   .faq details p{padding-right:0}
   .faq .lado .btn{width:100%}
@@ -258,6 +261,12 @@ footer b{color:#fff;font:400 1.15rem/1.2 "Gilda Display",serif;display:block;mar
   .barra{display:flex;position:fixed;left:0;right:0;bottom:0;z-index:30;padding:10px 16px calc(10px + env(safe-area-inset-bottom));background:rgba(243,236,227,.97);border-top:1px solid var(--linha);transition:transform .3s}
   .barra .btn{width:100%;padding:15px 20px}
   .barra.fora{transform:translateY(110%)}
+}
+@media (max-width:560px){
+  .pgrade{grid-template-columns:1fr;gap:14px;margin-top:28px}
+  .pgrade article{display:grid;grid-template-columns:44px 1fr;column-gap:16px;padding:20px 18px}
+  .pgrade svg{grid-row:span 2;width:36px;height:36px}
+  .pgrade h3{margin:2px 0 6px;font-size:1.25rem}
 }
 </style>
 </head>
@@ -313,9 +322,18 @@ footer b{color:#fff;font:400 1.15rem/1.2 "Gilda Display",serif;display:block;mar
       <div>
         <span class="sobrelinha">Procedimentos</span>
         <h2>Procedimentos estéticos</h2>
-        <p class="intro">Conte no WhatsApp o que te incomoda na pele ou no rosto. A Isabella indica o procedimento na avaliação.</p>
+        <p class="intro">Tratamentos de pele e rosto feitos na Sala 5, com avaliação antes de qualquer aplicação.</p>
+        <div class="pgrade">
+          <article class="surge"><svg viewBox="0 0 32 32" aria-hidden="true"><circle cx="16" cy="16" r="11"/><path d="M10 14c2-3 10-3 12 0M11 19c2.5 2.5 7.5 2.5 10 0"/><circle cx="12" cy="11" r=".6"/><circle cx="20" cy="22" r=".6"/></svg><h3>Limpeza de pele</h3><p>Higienização profunda e extração, com cuidados para cada tipo de pele.</p></article>
+          <article class="surge"><svg viewBox="0 0 32 32" aria-hidden="true"><path d="M21 5l6 6M24 8l-11 11-4-4L20 4M13 19l-3 3-2-2 3-3M8 22l-3 3"/></svg><h3>Toxina botulínica</h3><p>Aplicação para suavizar linhas de expressão.</p></article>
+          <article class="surge"><svg viewBox="0 0 32 32" aria-hidden="true"><path d="M16 4c5 6 8 10 8 14a8 8 0 0 1-16 0c0-4 3-8 8-14z"/><path d="M12 19a4 4 0 0 0 4 4"/></svg><h3>Preenchimento com ácido hialurônico</h3><p>Repõe volume e contorno em áreas do rosto.</p></article>
+          <article class="surge"><svg viewBox="0 0 32 32" aria-hidden="true"><path d="M6 24c4-2 6-6 10-6s6 4 10 6M6 16c4-2 6-6 10-6s6 4 10 6"/><circle cx="16" cy="6" r="1.4"/></svg><h3>Bioestimuladores de colágeno</h3><p>Estimulam a produção natural de colágeno da pele.</p></article>
+          <article class="surge"><svg viewBox="0 0 32 32" aria-hidden="true"><path d="M12 6c3 4 5 6.5 5 9a5 5 0 0 1-10 0c0-2.5 2-5 5-9zM22 14c2 2.6 3 4 3 5.6a3 3 0 0 1-6 0c0-1.6 1-3 3-5.6z"/></svg><h3>Skinbooster</h3><p>Hidratação profunda da pele com ácido hialurônico.</p></article>
+          <article class="surge"><svg viewBox="0 0 32 32" aria-hidden="true"><rect x="7" y="5" width="11" height="22" rx="4"/><path d="M12.5 10v5M18 12h4l4 4M18 20h3"/></svg><h3>Tecnologias e aparelhos</h3><p>Tratamentos com equipamento, indicados na avaliação.</p></article>
+        </div>
         <div class="depois">
-          <a class="btn wa" href="https://wa.me/5564999573120?text=Ol%C3%A1%2C%20Isabella!%20Vi%20seu%20site%20e%20quero%20agendar%20uma%20avalia%C3%A7%C3%A3o.">Perguntar sobre um procedimento</a>
+          <p>A Isabella confirma na avaliação quais procedimentos são indicados para você.</p>
+          <a class="btn wa" href="https://wa.me/5564999573120?text=Ol%C3%A1%2C%20Isabella!%20Vi%20seu%20site%20e%20quero%20perguntar%20sobre%20um%20procedimento.">Perguntar sobre um procedimento</a>
         </div>
       </div>
     </div>
@@ -358,23 +376,23 @@ footer b{color:#fff;font:400 1.15rem/1.2 "Gilda Display",serif;display:block;mar
       <header>
         <span class="sobrelinha">Primeira avaliação</span>
         <h2>Como é a primeira vez</h2>
-        <p>Dois passos até a avaliação.</p>
+        <p>Quatro passos, do primeiro contato ao seu plano de cuidado.</p>
       </header>
-      <ol class="trilha">
-        <li class="surge"><h3>Chame no WhatsApp</h3><p>Conte o que quer cuidar e combine o dia da avaliação.</p></li>
-        <li class="surge"><h3>Avaliação na Sala 5</h3><p>No Espaço Marilaine Peres, R. Dep. Honorato de Carvalho, 1430.</p></li>
-      </ol>
-    </div>
-  </section>
-
-  <section class="galeria" id="consultorio">
-    <div class="wrap">
-      <div class="cab">
-        <div><span class="sobrelinha">Sala 5</span><h2>Por dentro do consultório</h2></div>
-      </div>
-      <div class="faixa">
-        <figure class="surge"><img src="img/det-luz.webp" width="440" height="620" alt="Luminária pendente de luz dourada no consultório" loading="lazy"><figcaption>Luz do consultório</figcaption></figure>
-        <figure class="surge"><img src="img/det-bordado.webp" width="510" height="470" alt="Jaleco branco bordado com o nome Isabella Ribeiro, Biomédica" loading="lazy"><figcaption>Jaleco bordado</figcaption></figure>
+      <div class="pcorpo">
+        <ol class="trilha">
+          <li class="surge"><span class="n">1</span><div><h3>Chame no WhatsApp</h3><p>Conte o que você quer cuidar.</p></div></li>
+          <li class="surge"><span class="n">2</span><div><h3>Combine o dia</h3><p>A avaliação é marcada com hora certa.</p></div></li>
+          <li class="surge"><span class="n">3</span><div><h3>Avaliação na Sala 5</h3><p>Conversa sobre sua pele, histórico e rotina, no Espaço Marilaine Peres.</p></div></li>
+          <li class="surge"><span class="n">4</span><div><h3>Seu plano</h3><p>A Isabella explica o que indica, e você decide com calma.</p></div></li>
+        </ol>
+        <figure class="pfoto surge">
+          <figcaption>
+            <b>Primeira avaliação</b>
+            <span>Sala 5, dentro do Espaço Marilaine Peres<br>R. Dep. Honorato de Carvalho, 1430, Santa Maria</span>
+            <span class="nota5">★★★★★ 5,0 em 24 avaliações no Google</span>
+            <a class="btn wa" href="https://wa.me/5564999573120?text=Ol%C3%A1%2C%20Isabella!%20Vi%20seu%20site%20e%20quero%20agendar%20uma%20avalia%C3%A7%C3%A3o.">Agendar avaliação</a>
+          </figcaption>
+        </figure>
       </div>
     </div>
   </section>
