@@ -1,0 +1,436 @@
+- generic [active] [ref=e1]:
+  - link "Pular para o conteúdo" [ref=e2] [cursor=pointer]:
+    - /url: "#conteudo"
+  - generic [ref=e4]:
+    - generic [ref=e5]: Fechado agora. Mande mensagem no WhatsApp
+    - generic [ref=e6]: Especialista em iPhone · Compra · Venda · Assistência · Parcelamos em até 18x
+  - banner [ref=e7]:
+    - generic [ref=e8]:
+      - link "iPlanet Store, início" [ref=e9] [cursor=pointer]:
+        - /url: index.html
+        - generic [ref=e10]: iPlanet Store
+        - generic [ref=e11]: Eletrônicos & Assistência Técnica
+      - navigation "Principal" [ref=e12]:
+        - list [ref=e13]:
+          - listitem [ref=e14]:
+            - link "Início" [ref=e15] [cursor=pointer]:
+              - /url: index.html
+          - listitem [ref=e16]:
+            - link "Produtos" [ref=e17] [cursor=pointer]:
+              - /url: produtos.html
+          - listitem [ref=e18]:
+            - link "Assistência" [ref=e19] [cursor=pointer]:
+              - /url: servicos.html
+          - listitem [ref=e20]:
+            - link "Preços" [ref=e21] [cursor=pointer]:
+              - /url: precos.html
+          - listitem [ref=e22]:
+            - link "Galeria" [ref=e23] [cursor=pointer]:
+              - /url: galeria.html
+          - listitem [ref=e24]:
+            - link "Como chegar" [ref=e25] [cursor=pointer]:
+              - /url: contato.html
+      - link "Pedir orçamento" [ref=e26] [cursor=pointer]:
+        - /url: https://wa.me/5565998078968?text=Ol%C3%A1%2C%20iPlanet%20Store!%20Vim%20pelo%20site%20e%20quero%20um%20or%C3%A7amento.
+  - main [ref=e27]:
+    - generic [ref=e29]:
+      - generic [ref=e30]:
+        - generic [ref=e31]: Especialista em iPhone · Sapezal - MT
+        - heading "iPlanet Store" [level=1] [ref=e32]
+        - paragraph [ref=e33]: Seu upgrade começa aqui.
+        - paragraph [ref=e34]: iPhone, iPad, AirPods e capinha no mesmo balcão, com conserto ao lado e parcelamento em até 18x no cartão.
+        - generic [ref=e35]:
+          - link "Montar meu orçamento" [ref=e36] [cursor=pointer]:
+            - /url: produtos.html
+          - link "ou chame no WhatsApp (65) 99807-8968" [ref=e37] [cursor=pointer]:
+            - /url: https://wa.me/5565998078968?text=Ol%C3%A1%2C%20iPlanet%20Store!%20Vim%20pelo%20site%20e%20quero%20um%20or%C3%A7amento.
+        - paragraph [ref=e38]: Seg a sex 9h às 18h · Sáb 9h às 13h · Loja física desde 2025
+      - generic [ref=e39]:
+        - figure [ref=e40]:
+          - img "Fachada da iPlanet Store com letreiro dourado sobre parede grafite" [ref=e41]
+        - figure [ref=e42]:
+          - img "Caixas de iPad, iPhone, AirPods e AirTag sobre a bancada de madeira da loja" [ref=e43]
+    - generic [ref=e45]:
+      - generic [ref=e46]:
+        - generic [ref=e47]:
+          - heading "Os iPhones que mais saem" [level=2] [ref=e48]
+          - paragraph [ref=e49]: Do iPhone 15 ao 17 Pro Max, com parcelas em até 18x no cartão.
+        - link "Ver o catálogo completo" [ref=e50] [cursor=pointer]:
+          - /url: produtos.html
+      - generic [ref=e51]:
+        - article [ref=e52]:
+          - generic [ref=e53]:
+            - img "Imagem ilustrativa" [ref=e54]
+            - generic [ref=e87]: Imagem ilustrativa
+          - generic [ref=e88]:
+            - paragraph [ref=e89]: iPhones
+            - heading "iPhone 17 Pro Max" [level=3] [ref=e90]
+            - paragraph [ref=e91]: A bateria que mais dura da linha e a tela maior, para quem vive no celular.
+            - generic [ref=e92]:
+              - generic [ref=e93]: Memória
+              - generic [ref=e94]:
+                - button "256 GB" [pressed] [ref=e95] [cursor=pointer]
+                - button "512 GB" [ref=e96] [cursor=pointer]
+                - button "1 TB" [ref=e97] [cursor=pointer]
+                - button "2 TB" [ref=e98] [cursor=pointer]
+            - generic [ref=e99]:
+              - generic [ref=e100]: "Cor: Laranja-cósmico"
+              - generic [ref=e101]:
+                - button "Laranja-cósmico" [pressed] [ref=e102] [cursor=pointer]
+                - button "Azul-profundo" [ref=e103] [cursor=pointer]
+                - button "Prateado" [ref=e104] [cursor=pointer]
+            - generic [ref=e105]:
+              - generic [ref=e106]:
+                - term [ref=e107]: Condição
+                - definition [ref=e108]:
+                  - generic [ref=e109]: A definir
+              - generic [ref=e110]:
+                - term [ref=e111]: Preço
+                - definition [ref=e112]:
+                  - generic [ref=e113]: A definir
+            - button "Adicionar ao orçamento" [ref=e114] [cursor=pointer]
+        - article [ref=e115]:
+          - generic [ref=e116]:
+            - img "Imagem ilustrativa" [ref=e117]
+            - generic [ref=e150]: Imagem ilustrativa
+          - generic [ref=e151]:
+            - paragraph [ref=e152]: iPhones
+            - heading "iPhone 17 Pro" [level=3] [ref=e153]
+            - paragraph [ref=e154]: Câmera tripla de nível Pro num tamanho que cabe no bolso da calça.
+            - generic [ref=e155]:
+              - generic [ref=e156]: Memória
+              - generic [ref=e157]:
+                - button "256 GB" [pressed] [ref=e158] [cursor=pointer]
+                - button "512 GB" [ref=e159] [cursor=pointer]
+                - button "1 TB" [ref=e160] [cursor=pointer]
+            - generic [ref=e161]:
+              - generic [ref=e162]: "Cor: Azul-profundo"
+              - generic [ref=e163]:
+                - button "Azul-profundo" [pressed] [ref=e164] [cursor=pointer]
+                - button "Laranja-cósmico" [ref=e165] [cursor=pointer]
+                - button "Prateado" [ref=e166] [cursor=pointer]
+            - generic [ref=e167]:
+              - generic [ref=e168]:
+                - term [ref=e169]: Condição
+                - definition [ref=e170]:
+                  - generic [ref=e171]: A definir
+              - generic [ref=e172]:
+                - term [ref=e173]: Preço
+                - definition [ref=e174]:
+                  - generic [ref=e175]: A definir
+            - button "Adicionar ao orçamento" [ref=e176] [cursor=pointer]
+        - article [ref=e177]:
+          - generic [ref=e178]:
+            - img "Imagem ilustrativa" [ref=e179]
+            - generic [ref=e197]: Imagem ilustrativa
+          - generic [ref=e198]:
+            - paragraph [ref=e199]: iPhones
+            - heading "iPhone Air" [level=3] [ref=e200]
+            - paragraph [ref=e201]: "O mais fino e leve: some no bolso e não pesa na mão."
+            - generic [ref=e202]:
+              - generic [ref=e203]: Memória
+              - generic [ref=e204]:
+                - button "256 GB" [pressed] [ref=e205] [cursor=pointer]
+                - button "512 GB" [ref=e206] [cursor=pointer]
+                - button "1 TB" [ref=e207] [cursor=pointer]
+            - generic [ref=e208]:
+              - generic [ref=e209]: "Cor: Azul-céu"
+              - generic [ref=e210]:
+                - button "Azul-céu" [pressed] [ref=e211] [cursor=pointer]
+                - button "Dourado-claro" [ref=e212] [cursor=pointer]
+                - button "Branco-nuvem" [ref=e213] [cursor=pointer]
+                - button "Preto-espacial" [ref=e214] [cursor=pointer]
+            - generic [ref=e215]:
+              - generic [ref=e216]:
+                - term [ref=e217]: Condição
+                - definition [ref=e218]:
+                  - generic [ref=e219]: A definir
+              - generic [ref=e220]:
+                - term [ref=e221]: Preço
+                - definition [ref=e222]:
+                  - generic [ref=e223]: A definir
+            - button "Adicionar ao orçamento" [ref=e224] [cursor=pointer]
+        - article [ref=e225]:
+          - generic [ref=e226]:
+            - img "Imagem ilustrativa" [ref=e227]
+            - generic [ref=e251]: Imagem ilustrativa
+          - generic [ref=e252]:
+            - paragraph [ref=e253]: iPhones
+            - heading "iPhone 17" [level=3] [ref=e254]
+            - paragraph [ref=e255]: "Tela de 120 Hz e 256 GB de entrada: espaço de sobra para foto e vídeo."
+            - generic [ref=e256]:
+              - generic [ref=e257]: Memória
+              - generic [ref=e258]:
+                - button "256 GB" [pressed] [ref=e259] [cursor=pointer]
+                - button "512 GB" [ref=e260] [cursor=pointer]
+            - generic [ref=e261]:
+              - generic [ref=e262]: "Cor: Lavanda"
+              - generic [ref=e263]:
+                - button "Lavanda" [pressed] [ref=e264] [cursor=pointer]
+                - button "Sálvia" [ref=e265] [cursor=pointer]
+                - button "Azul-névoa" [ref=e266] [cursor=pointer]
+                - button "Branco" [ref=e267] [cursor=pointer]
+                - button "Preto" [ref=e268] [cursor=pointer]
+            - generic [ref=e269]:
+              - generic [ref=e270]:
+                - term [ref=e271]: Condição
+                - definition [ref=e272]:
+                  - generic [ref=e273]: A definir
+              - generic [ref=e274]:
+                - term [ref=e275]: Preço
+                - definition [ref=e276]:
+                  - generic [ref=e277]: A definir
+            - button "Adicionar ao orçamento" [ref=e278] [cursor=pointer]
+    - generic [ref=e280]:
+      - generic [ref=e281]:
+        - heading "Tudo para o seu iPhone, num lugar só" [level=2] [ref=e282]
+        - paragraph [ref=e283]: Do aparelho novo à película, passando pelo conserto.
+      - generic [ref=e284]:
+        - link "Imagem ilustrativa Imagem ilustrativa iPhones Da linha 17 ao iPhone 15, em várias memórias e cores. Ver iPhones →" [ref=e285] [cursor=pointer]:
+          - /url: produtos.html#iphone
+          - generic [ref=e286]:
+            - img "Imagem ilustrativa" [ref=e288]
+            - img "Imagem ilustrativa" [ref=e322]
+          - generic [ref=e340]:
+            - heading "iPhones" [level=3] [ref=e341]
+            - paragraph [ref=e342]: Da linha 17 ao iPhone 15, em várias memórias e cores.
+            - generic [ref=e343]: Ver iPhones →
+        - link "Imagem ilustrativa Imagem ilustrativa Capinhas e películas Para o seu modelo exato, protegendo câmera e tela. Ver proteção →" [ref=e344] [cursor=pointer]:
+          - /url: produtos.html#capinha
+          - generic [ref=e345]:
+            - img "Imagem ilustrativa" [ref=e347]
+            - img "Imagem ilustrativa" [ref=e355]
+          - generic [ref=e364]:
+            - heading "Capinhas e películas" [level=3] [ref=e365]
+            - paragraph [ref=e366]: Para o seu modelo exato, protegendo câmera e tela.
+            - generic [ref=e367]: Ver proteção →
+        - link "Imagem ilustrativa Imagem ilustrativa Acessórios AirPods, AirTag, iPad, fonte, cabo e MagSafe. Ver acessórios →" [ref=e368] [cursor=pointer]:
+          - /url: produtos.html#airpods
+          - generic [ref=e369]:
+            - img "Imagem ilustrativa" [ref=e371]
+            - img "Imagem ilustrativa" [ref=e383]
+          - generic [ref=e392]:
+            - heading "Acessórios" [level=3] [ref=e393]
+            - paragraph [ref=e394]: AirPods, AirTag, iPad, fonte, cabo e MagSafe.
+            - generic [ref=e395]: Ver acessórios →
+        - link "Imagem ilustrativa Imagem ilustrativa Assistência técnica Tela, bateria, conector, câmera e sistema. Ver consertos →" [ref=e396] [cursor=pointer]:
+          - /url: servicos.html
+          - generic [ref=e397]:
+            - img "Imagem ilustrativa" [ref=e399]
+            - img "Imagem ilustrativa" [ref=e409]:
+              - generic [ref=e418]: 100%
+          - generic [ref=e420]:
+            - heading "Assistência técnica" [level=3] [ref=e421]
+            - paragraph [ref=e422]: Tela, bateria, conector, câmera e sistema.
+            - generic [ref=e423]: Ver consertos →
+    - generic [ref=e425]:
+      - figure [ref=e426]:
+        - img "iPad, iPhone, AirPods Max, AirTag e carregador sobre a bancada de madeira da loja" [ref=e427]
+      - generic [ref=e428]:
+        - heading "Por que escolhem a iPlanet" [level=2] [ref=e429]
+        - paragraph [ref=e430]: "Qualidade e bom atendimento: é isso que faz o cliente voltar e indicar."
+        - list [ref=e431]:
+          - listitem [ref=e432]:
+            - generic [ref=e433]: iPhone
+            - strong [ref=e434]: Especialista em iPhone
+            - generic [ref=e435]: Você fala com quem trabalha com iPhone todo dia e sabe indicar o modelo certo para o seu uso.
+          - listitem [ref=e436]:
+            - generic [ref=e437]: Tudo
+            - strong [ref=e438]: Compra, venda e assistência
+            - generic [ref=e439]: Comprar, vender e consertar sem trocar de loja.
+          - listitem [ref=e440]:
+            - generic [ref=e441]: 18x
+            - strong [ref=e442]: Parcelamento em até 18x
+            - generic [ref=e443]: O iPhone cabe no mês, no cartão de crédito.
+          - listitem [ref=e444]:
+            - generic [ref=e445]: "2025"
+            - strong [ref=e446]: Loja física em Sapezal
+            - generic [ref=e447]: "Loja física em Sapezal desde 2025: compra, venda e conserto no mesmo balcão."
+    - generic [ref=e449]:
+      - generic [ref=e450]:
+        - heading "Como comprar" [level=2] [ref=e451]
+        - paragraph [ref=e452]: Sem ida e volta de mensagem.
+      - list [ref=e453]:
+        - listitem [ref=e454]:
+          - heading "Escolha no catálogo" [level=3] [ref=e455]
+          - paragraph [ref=e456]: Modelo, memória, cor, capinha e película, quantos itens quiser.
+        - listitem [ref=e457]:
+          - heading "Mande o orçamento pronto" [level=3] [ref=e458]
+          - paragraph [ref=e459]: "Você manda tudo numa mensagem só: aparelho, capinha, pagamento e parcelas."
+        - listitem [ref=e460]:
+          - heading "Receba o valor e combine" [level=3] [ref=e461]
+          - paragraph [ref=e462]: Você recebe o valor e as parcelas e combina como pegar o aparelho.
+    - generic [ref=e465]:
+      - generic [ref=e466]:
+        - heading "Monte o orçamento e mande de uma vez" [level=2] [ref=e467]
+        - paragraph [ref=e468]: "Junte iPhone, capinha, película e até o conserto. A mensagem chega assim no WhatsApp da loja:"
+        - generic [ref=e469]: "Olá, iPlanet Store! Montei este orçamento no site: 1) iPhone 17 Pro — 256 GB — Azul-profundo — 1 un. 2) Capinha MagSafe — iPhone 17 Pro — 1 un. Pagamento: cartão de crédito em 12x"
+        - paragraph [ref=e470]:
+          - link "Montar meu orçamento" [ref=e471] [cursor=pointer]:
+            - /url: produtos.html
+      - generic [ref=e472]:
+        - img "Imagem ilustrativa" [ref=e474]
+        - img "Imagem ilustrativa" [ref=e484]
+        - img "Imagem ilustrativa" [ref=e518]
+    - generic [ref=e529]:
+      - generic [ref=e530]:
+        - heading "Quanto fica a parcela?" [level=2] [ref=e531]
+        - paragraph [ref=e532]: "Parcelamos em até 18x no cartão: veja a parcela antes de pedir."
+        - link "Ver tabela completa de 1x a 18x →" [ref=e533] [cursor=pointer]:
+          - /url: precos.html
+      - generic [ref=e534]:
+        - generic [ref=e536]:
+          - text: Valor à vista do produto
+          - generic [ref=e537]:
+            - generic [ref=e538]: R$
+            - textbox "Valor à vista em reais" [ref=e539]: "2000"
+        - generic [ref=e540]:
+          - generic [ref=e541]: 18x de
+          - strong [ref=e542]: R$ 134,67
+          - generic [ref=e543]: Total no cartão R$ 2.424,00
+        - paragraph [ref=e544]: Simulação com taxas de exemplo. O valor final é confirmado no orçamento pelo WhatsApp.
+    - generic [ref=e546]:
+      - generic [ref=e547]:
+        - generic [ref=e548]:
+          - heading "Da loja para o seu bolso" [level=2] [ref=e549]
+          - paragraph [ref=e550]: Fachada, balcão e o que chegou nas últimas semanas.
+        - link "Ver a galeria" [ref=e551] [cursor=pointer]:
+          - /url: galeria.html
+      - generic [ref=e552]:
+        - figure "Loja de porta aberta em Sapezal Compra, venda e conserto no mesmo balcão, desde 2025." [ref=e553]:
+          - 'button "Ampliar: Loja de porta aberta em Sapezal" [ref=e554]':
+            - img "Loja de porta aberta em Sapezal" [ref=e555]
+          - generic [ref=e556]:
+            - generic [ref=e557]: Loja de porta aberta em Sapezal
+            - text: Compra, venda e conserto no mesmo balcão, desde 2025.
+        - figure "iPhone, iPad, AirPods e AirTag no mesmo balcão Sai tudo numa compra, parcelado em até 18x." [ref=e558]:
+          - 'button "Ampliar: iPhone, iPad, AirPods e AirTag no mesmo balcão" [ref=e559]':
+            - img "iPhone, iPad, AirPods e AirTag no mesmo balcão" [ref=e560]
+          - generic [ref=e561]:
+            - generic [ref=e562]: iPhone, iPad, AirPods e AirTag no mesmo balcão
+            - text: Sai tudo numa compra, parcelado em até 18x.
+        - figure "iPad para estudo e trabalho Tela grande para aula, planilha e desenho, parcelado em até 18x." [ref=e563]:
+          - 'button "Ampliar: iPad para estudo e trabalho" [ref=e564]':
+            - img "iPad para estudo e trabalho" [ref=e565]
+          - generic [ref=e566]:
+            - generic [ref=e567]: iPad para estudo e trabalho
+            - text: Tela grande para aula, planilha e desenho, parcelado em até 18x.
+        - figure "iPhone na bancada da loja Modelo e preço do dia no WhatsApp." [ref=e568]:
+          - 'button "Ampliar: iPhone na bancada da loja" [ref=e569]':
+            - img "iPhone na bancada da loja" [ref=e570]
+          - generic [ref=e571]:
+            - generic [ref=e572]: iPhone na bancada da loja
+            - text: Modelo e preço do dia no WhatsApp.
+    - generic [ref=e574]:
+      - iframe [ref=e576]
+      - generic [ref=e577]:
+        - generic [ref=e578]:
+          - heading "Horário" [level=3] [ref=e579]
+          - list [ref=e580]:
+            - listitem [ref=e581]:
+              - generic [ref=e582]: Segunda a sexta
+              - generic [ref=e583]: 9h às 18h
+            - listitem [ref=e584]:
+              - generic [ref=e585]: Sábado
+              - generic [ref=e586]: 9h às 13h
+            - listitem [ref=e587]:
+              - generic [ref=e588]: Domingo
+              - generic [ref=e589]: Fechado
+        - generic [ref=e590]:
+          - heading "Endereço" [level=3] [ref=e591]
+          - paragraph [ref=e592]:
+            - generic [ref=e593]: A definir
+          - paragraph [ref=e594]: Chame no WhatsApp e receba a localização da loja em Sapezal.
+        - link "Pedir a localização" [ref=e595] [cursor=pointer]:
+          - /url: https://wa.me/5565998078968?text=Ol%C3%A1%2C%20iPlanet%20Store!%20Pode%20me%20mandar%20a%20localiza%C3%A7%C3%A3o%20da%20loja%3F
+    - generic [ref=e597]:
+      - heading "Perguntas frequentes" [level=2] [ref=e599]
+      - generic [ref=e600]:
+        - group [ref=e601]:
+          - generic "Como peço um orçamento? +" [ref=e602] [cursor=pointer]
+        - group [ref=e603]:
+          - generic "Em quantas vezes posso parcelar? +" [ref=e604] [cursor=pointer]
+        - group [ref=e605]:
+          - generic "Tem garantia? +" [ref=e606] [cursor=pointer]
+        - group [ref=e607]:
+          - generic "Posso retirar na loja? +" [ref=e608] [cursor=pointer]
+        - group [ref=e609]:
+          - generic "Vocês entregam? +" [ref=e610] [cursor=pointer]
+        - group [ref=e611]:
+          - generic "Qual é o endereço? +" [ref=e612] [cursor=pointer]
+        - group [ref=e613]:
+          - generic "Posso dar meu aparelho na troca? +" [ref=e614] [cursor=pointer]
+    - generic [ref=e616]:
+      - heading "Seu upgrade começa aqui" [level=2] [ref=e617]
+      - paragraph [ref=e618]: Mande o modelo que você quer e receba o valor com as parcelas.
+      - link "Montar meu orçamento" [ref=e619] [cursor=pointer]:
+        - /url: produtos.html
+  - contentinfo [ref=e620]:
+    - generic [ref=e621]:
+      - generic [ref=e622]:
+        - link "iPlanet Store Eletrônicos & Assistência Técnica" [ref=e623] [cursor=pointer]:
+          - /url: index.html
+          - generic [ref=e624]: iPlanet Store
+          - generic [ref=e625]: Eletrônicos & Assistência Técnica
+        - paragraph [ref=e626]: Especialista em iPhone em Sapezal - MT desde 2025. Compra, venda e assistência, com parcelamento em até 18x.
+      - generic [ref=e627]:
+        - heading "Páginas" [level=3] [ref=e628]
+        - list [ref=e629]:
+          - listitem [ref=e630]:
+            - link "Início" [ref=e631] [cursor=pointer]:
+              - /url: index.html
+          - listitem [ref=e632]:
+            - link "Produtos" [ref=e633] [cursor=pointer]:
+              - /url: produtos.html
+          - listitem [ref=e634]:
+            - link "Assistência" [ref=e635] [cursor=pointer]:
+              - /url: servicos.html
+          - listitem [ref=e636]:
+            - link "Preços" [ref=e637] [cursor=pointer]:
+              - /url: precos.html
+          - listitem [ref=e638]:
+            - link "Galeria" [ref=e639] [cursor=pointer]:
+              - /url: galeria.html
+          - listitem [ref=e640]:
+            - link "Como chegar" [ref=e641] [cursor=pointer]:
+              - /url: contato.html
+      - generic [ref=e642]:
+        - heading "Horário" [level=3] [ref=e643]
+        - list [ref=e644]:
+          - listitem [ref=e645]: "Seg a sex: 9h às 18h"
+          - listitem [ref=e646]: "Sábado: 9h às 13h"
+          - listitem [ref=e647]: "Domingo: fechado"
+      - generic [ref=e648]:
+        - heading "Fale com a loja" [level=3] [ref=e649]
+        - list [ref=e650]:
+          - listitem [ref=e651]:
+            - link "WhatsApp (65) 99807-8968" [ref=e652] [cursor=pointer]:
+              - /url: https://wa.me/5565998078968?text=Ol%C3%A1%2C%20iPlanet%20Store!%20Vim%20pelo%20site%20e%20quero%20um%20or%C3%A7amento.
+          - listitem [ref=e653]:
+            - link "Instagram @iplanetstore.sapezal" [ref=e654] [cursor=pointer]:
+              - /url: https://www.instagram.com/iplanetstore.sapezal
+          - listitem [ref=e655]:
+            - text: "Endereço:"
+            - generic [ref=e656]: A definir
+      - paragraph [ref=e657]: © 2026 iPlanet Store · Sapezal - MT. iPhone, iPad, AirPods e AirTag são marcas da Apple Inc. A iPlanet Store é uma loja independente. Imagens ilustrativas desenhadas para este site.
+  - option "1x"
+  - option "2x"
+  - option "3x"
+  - option "4x"
+  - option "5x"
+  - option "6x"
+  - option "7x"
+  - option "8x"
+  - option "9x"
+  - option "10x"
+  - option "11x"
+  - option "12x" [selected]
+  - option "13x"
+  - option "14x"
+  - option "15x"
+  - option "16x"
+  - option "17x"
+  - option "18x"
+  - option "Retirar na loja" [selected]
+  - option "Quero saber sobre entrega"
+  - status

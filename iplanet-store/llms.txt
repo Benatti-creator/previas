@@ -1,0 +1,10 @@
+# iPlanet Store
+
+> Loja de iPhone e eletrônicos em Sapezal - MT, desde 2025. Compra, venda e assistência técnica. Parcelamento em até 18x no cartão. Orçamento pelo WhatsApp (65) 99807-8968.
+
+- [Início](SITE_URL/): resumo da loja e montador de orçamento
+- [Produtos](SITE_URL/produtos.html): iPhones, iPad, AirPods, AirTag, capinhas, películas e carregadores
+- [Assistência](SITE_URL/servicos.html): troca de tela, bateria, conector, câmera, aparelho molhado, sistema e backup
+- [Preços](SITE_URL/precos.html): tabela sob consulta e simulador de parcelas
+- [Galeria](SITE_URL/galeria.html): fotos da loja e dos produtos
+- [Como chegar](SITE_URL/contato.html): horário (seg-sex 9h-18h, sáb 9h-13h), WhatsApp e mapa
