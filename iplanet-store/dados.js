@@ -153,7 +153,7 @@ window.PRODUTOS = [
     texto: "Toque macio que não escorrega da mão.",
     var: { rotulo: "Para o modelo", valores: MI }, precos: {},
     cores: [["Areia", "#d9c7a6"], ["Azul", "#4d6a93"], ["Rosa", "#e7a9b9"], ["Verde", "#7b9a7f"], ["Preto", "#26262a"]],
-    condicao: "", foto: "img/produtos/capinha-silicone.webp", credito: "Foto: 茅野ふたば, CC BY-SA 4.0, via Wikimedia Commons", img: { t: "capa" } },
+    condicao: "", foto: "", img: { t: "capa" } },
   { id: "capinha-magsafe", cat: "capinha", nome: "Capinha MagSafe",
     texto: "Com ímã: funciona no carregador MagSafe e no suporte do carro.",
     var: { rotulo: "Para o modelo", valores: MI }, precos: {},
