@@ -1,0 +1,14 @@
+# Demonstração: as páginas usam noindex. Ao publicar, remova o noindex das páginas.
+User-agent: *
+Allow: /
+
+User-agent: GPTBot
+Allow: /
+User-agent: ClaudeBot
+Allow: /
+User-agent: PerplexityBot
+Allow: /
+User-agent: Google-Extended
+Allow: /
+
+Sitemap: https://benatti-creator.github.io/previas/iplanet-store-nova/sitemap.xml
