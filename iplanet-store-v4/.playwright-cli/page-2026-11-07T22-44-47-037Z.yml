@@ -1,0 +1,175 @@
+- generic [ref=f5e1]:
+  - banner [ref=f5e2]:
+    - generic [ref=f5e3]:
+      - link "iPlanet Store, página inicial" [ref=f5e4] [cursor=pointer]:
+        - /url: index.html
+        - generic [ref=f5e6]:
+          - generic [ref=f5e7]: iPlanet Store
+          - generic [ref=f5e8]: Sapezal-MT
+      - button "Abrir menu" [ref=f5e9] [cursor=pointer]
+  - main [ref=f5e11]:
+    - generic [ref=f5e13]:
+      - paragraph [ref=f5e14]:
+        - link "Início" [ref=f5e15] [cursor=pointer]:
+          - /url: index.html
+        - text: / iPhone
+      - heading "Qual iPhone é o seu?" [level=1] [ref=f5e16]
+    - generic [ref=f5e18]:
+      - img "iPhone Air" [ref=f5e173]
+      - generic [ref=f5e21]:
+        - group "Modelo" [ref=f5e22]:
+          - button "17 Pro Max" [ref=f5e23] [cursor=pointer]
+          - button "17 Pro" [ref=f5e24] [cursor=pointer]
+          - button "Air" [active] [pressed] [ref=f5e25] [cursor=pointer]
+          - button "17" [ref=f5e26] [cursor=pointer]
+          - button "16e" [ref=f5e27] [cursor=pointer]
+        - heading "iPhone Air" [level=2] [ref=f5e174]
+        - paragraph [ref=f5e29]: 5,6 mm de espessura. Some no bolso.
+        - generic [ref=f5e30]:
+          - generic [ref=f5e31]: Cor
+          - generic [ref=f5e32]:
+            - button "Azul-céu" [pressed] [ref=f5e175] [cursor=pointer]
+            - button "Dourado-claro" [ref=f5e176] [cursor=pointer]
+            - button "Branco-nuvem" [ref=f5e177] [cursor=pointer]
+            - button "Preto-espacial" [ref=f5e178] [cursor=pointer]
+          - paragraph [ref=f5e36]: Azul-céu
+        - generic [ref=f5e37]:
+          - generic [ref=f5e38]: Armazenamento
+          - generic [ref=f5e39]:
+            - button "256 GB" [pressed] [ref=f5e179] [cursor=pointer]
+            - button "512 GB" [ref=f5e180] [cursor=pointer]
+            - button "1 TB" [ref=f5e181] [cursor=pointer]
+        - generic [ref=f5e44]:
+          - generic [ref=f5e45]: Valor
+          - generic [ref=f5e46]: sob consulta
+        - generic [ref=f5e47]:
+          - link "Quero esse" [ref=f5e48] [cursor=pointer]:
+            - /url: https://wa.me/5565998078968?text=Ol%C3%A1!%20Quero%20or%C3%A7amento%20do%20iPhone%20Air%2C%20cor%20Azul-c%C3%A9u%2C%20256%20GB
+          - link "Simular parcelas" [ref=f5e51] [cursor=pointer]:
+            - /url: orcamento.html#air
+        - paragraph [ref=f5e52]: Parcelamos em até 18x. Imagens ilustrativas.
+    - generic [ref=f5e54]:
+      - generic [ref=f5e55]:
+        - heading "Os cinco, lado a lado." [level=2] [ref=f5e56]
+        - paragraph [ref=f5e57]: Do 16e ao 17 Pro Max. Valor sob consulta.
+      - table [ref=f5e59]:
+        - rowgroup [ref=f5e60]:
+          - row [ref=f5e61]:
+            - columnheader "Item" [ref=f5e62]
+            - columnheader "iPhone 17 Pro Max sob consulta" [ref=f5e64]: iPhone 17 Pro Maxsob consulta
+            - columnheader "iPhone 17 Pro sob consulta" [ref=f5e65]: iPhone 17 Prosob consulta
+            - columnheader "iPhone Air sob consulta" [ref=f5e66]: iPhone Airsob consulta
+            - columnheader "iPhone 17 sob consulta" [ref=f5e67]: iPhone 17sob consulta
+            - columnheader "iPhone 16e sob consulta" [ref=f5e68]: iPhone 16esob consulta
+        - rowgroup [ref=f5e69]:
+          - row [ref=f5e70]:
+            - rowheader "Tela" [ref=f5e71]
+            - cell "6,9\" Super Retina XDR, ProMotion 120 Hz" [ref=f5e72]
+            - cell "6,3\" Super Retina XDR, ProMotion 120 Hz" [ref=f5e73]
+            - cell "6,5\" Super Retina XDR, ProMotion 120 Hz" [ref=f5e74]
+            - cell "6,3\" Super Retina XDR, ProMotion 120 Hz" [ref=f5e75]
+            - cell "6,1\" Super Retina XDR" [ref=f5e76]
+          - row [ref=f5e77]:
+            - rowheader "Chip" [ref=f5e78]
+            - cell "A19 Pro" [ref=f5e79]
+            - cell "A19 Pro" [ref=f5e80]
+            - cell "A19 Pro" [ref=f5e81]
+            - cell "A19" [ref=f5e82]
+            - cell "A18" [ref=f5e83]
+          - row [ref=f5e84]:
+            - rowheader "Câmera" [ref=f5e85]
+            - cell "Três câmeras de 48 MP (teleobjetiva 4x)" [ref=f5e86]
+            - cell "Três câmeras de 48 MP (teleobjetiva 4x)" [ref=f5e87]
+            - cell "Câmera Fusion de 48 MP" [ref=f5e88]
+            - cell "Duas câmeras de 48 MP" [ref=f5e89]
+            - cell "Câmera Fusion de 48 MP" [ref=f5e90]
+          - row [ref=f5e91]:
+            - rowheader "Bateria" [ref=f5e92]
+            - cell "consulte" [ref=f5e93]
+            - cell "consulte" [ref=f5e94]
+            - cell "consulte" [ref=f5e95]
+            - cell "consulte" [ref=f5e96]
+            - cell "Até 26 h de vídeo" [ref=f5e97]
+          - row [ref=f5e98]:
+            - rowheader "Armazenamento" [ref=f5e99]
+            - cell "256 GB, 512 GB, 1 TB, 2 TB" [ref=f5e100]
+            - cell "256 GB, 512 GB, 1 TB" [ref=f5e101]
+            - cell "256 GB, 512 GB, 1 TB" [ref=f5e102]
+            - cell "256 GB, 512 GB" [ref=f5e103]
+            - cell "128 GB, 256 GB, 512 GB" [ref=f5e104]
+          - row [ref=f5e105]:
+            - rowheader "Valor" [ref=f5e106]
+            - cell "sob consulta" [ref=f5e107]
+            - cell "sob consulta" [ref=f5e108]
+            - cell "sob consulta" [ref=f5e109]
+            - cell "sob consulta" [ref=f5e110]
+            - cell "sob consulta" [ref=f5e111]
+      - generic [ref=f5e112]:
+        - generic [ref=f5e113]: Também temos iPhone 15 e 16, consulte.
+        - link "Perguntar no WhatsApp" [ref=f5e114] [cursor=pointer]:
+          - /url: https://wa.me/5565998078968?text=Ol%C3%A1!%20Quero%20saber%20do%20iPhone%2015%20%2F%2016.
+    - generic [ref=f5e118]:
+      - heading "De perto." [level=2] [ref=f5e120]
+      - generic [ref=f5e121]:
+        - figure "Câmeras do 17 Pro Três câmeras de 48 MP, com teleobjetiva de 4x." [ref=f5e122]:
+          - img "Conjunto de câmeras do iPhone 17 Pro laranja cósmico" [ref=f5e123]
+          - generic [ref=f5e124]:
+            - generic [ref=f5e125]: Câmeras do 17 Pro
+            - text: Três câmeras de 48 MP, com teleobjetiva de 4x.
+        - figure "iPhone 16e Branco ou preto, a partir de 128 GB." [ref=f5e126]:
+          - img "iPhone 16e branco e preto" [ref=f5e127]
+          - generic [ref=f5e128]:
+            - generic [ref=f5e129]: iPhone 16e
+            - text: Branco ou preto, a partir de 128 GB.
+  - contentinfo [ref=f5e130]:
+    - generic [ref=f5e131]:
+      - generic [ref=f5e132]:
+        - generic [ref=f5e133]:
+          - link "iPlanet Store, página inicial" [ref=f5e134] [cursor=pointer]:
+            - /url: index.html
+            - generic [ref=f5e136]:
+              - generic [ref=f5e137]: iPlanet Store
+              - generic [ref=f5e138]: Sapezal-MT
+          - paragraph [ref=f5e139]: Especialista em iPhone em Sapezal desde 2025. Compra, venda e assistência. Parcelamos em até 18x.
+        - generic [ref=f5e140]:
+          - heading "Contato" [level=4] [ref=f5e141]
+          - list [ref=f5e142]:
+            - listitem [ref=f5e143]:
+              - link "WhatsApp (65) 99807-8968" [ref=f5e144] [cursor=pointer]:
+                - /url: https://wa.me/5565998078968
+            - listitem [ref=f5e145]:
+              - link "Instagram @iplanetstore.sapezal" [ref=f5e146] [cursor=pointer]:
+                - /url: https://www.instagram.com/iplanetstore.sapezal
+            - listitem [ref=f5e147]:
+              - text: "Endereço:"
+              - generic [ref=f5e148]: a definir
+        - generic [ref=f5e149]:
+          - heading "Horário" [level=4] [ref=f5e150]
+          - list [ref=f5e151]:
+            - listitem [ref=f5e152]: "Segunda a sexta: 9h às 18h"
+            - listitem [ref=f5e153]: "Sábado: 9h às 13h"
+            - listitem [ref=f5e154]: "Domingo: Fechado"
+        - generic [ref=f5e155]:
+          - heading "Páginas" [level=4] [ref=f5e156]
+          - list [ref=f5e157]:
+            - listitem [ref=f5e158]:
+              - link "iPhone" [ref=f5e159] [cursor=pointer]:
+                - /url: iphone.html
+            - listitem [ref=f5e160]:
+              - link "Acessórios" [ref=f5e161] [cursor=pointer]:
+                - /url: acessorios.html
+            - listitem [ref=f5e162]:
+              - link "Assistência" [ref=f5e163] [cursor=pointer]:
+                - /url: assistencia.html
+            - listitem [ref=f5e164]:
+              - link "A loja" [ref=f5e165] [cursor=pointer]:
+                - /url: loja.html
+            - listitem [ref=f5e166]:
+              - link "Orçamento" [ref=f5e167] [cursor=pointer]:
+                - /url: orcamento.html
+            - listitem [ref=f5e168]:
+              - link "Créditos" [ref=f5e169] [cursor=pointer]:
+                - /url: creditos.html
+      - generic [ref=f5e170]:
+        - generic [ref=f5e171]: "Imagens ilustrativas. Imagens de produto: Apple Newsroom (material de divulgação). Marcas pertencentes à Apple Inc."
+        - generic [ref=f5e172]: © 2026 iPlanet Store · Sapezal-MT

@@ -1,0 +1,320 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "iPlanet Store, página inicial" [ref=e4] [cursor=pointer]:
+        - /url: index.html
+        - generic [ref=e6]:
+          - generic [ref=e7]: iPlanet Store
+          - generic [ref=e8]: Sapezal-MT
+      - navigation "Principal" [ref=e9]:
+        - link "iPhone" [ref=e10] [cursor=pointer]:
+          - /url: iphone.html
+        - link "Acessórios" [ref=e11] [cursor=pointer]:
+          - /url: acessorios.html
+        - link "Assistência" [ref=e12] [cursor=pointer]:
+          - /url: assistencia.html
+        - link "A loja" [ref=e13] [cursor=pointer]:
+          - /url: loja.html
+      - link "Orçamento no WhatsApp" [ref=e14] [cursor=pointer]:
+        - /url: https://wa.me/5565998078968?text=Ol%C3%A1!%20Quero%20um%20or%C3%A7amento.
+  - main [ref=e17]:
+    - generic [ref=e19]:
+      - generic [ref=e20]:
+        - heading "Seu upgrade começa aqui." [level=1] [ref=e21]
+        - paragraph [ref=e22]: Especialista em iPhone em Sapezal. Compra, venda e assistência. Parcelamos em até 18x.
+        - generic [ref=e23]:
+          - link "Pedir orçamento no WhatsApp" [ref=e24] [cursor=pointer]:
+            - /url: https://wa.me/5565998078968?text=Ol%C3%A1!%20Quero%20um%20or%C3%A7amento%20de%20iPhone.
+          - link "Ver iPhones" [ref=e27] [cursor=pointer]:
+            - /url: "#modelos"
+        - generic [ref=e28]:
+          - generic [ref=e29]: Até 18x no cartão
+          - generic [ref=e32]: Seg–sex 9h–18h · Sáb 9h–13h
+      - img "iPhone Air nas cores azul-céu, dourado-claro, branco-nuvem e preto-espacial" [ref=e37]
+    - generic [ref=e39]:
+      - generic [ref=e40]:
+        - heading "Escolha o seu." [level=2] [ref=e41]
+        - link "Comparar modelos" [ref=e42] [cursor=pointer]:
+          - /url: iphone.html
+      - generic [ref=e46]:
+        - link "iPhone 17 Pro Max iPhone 17 Pro Max sob consulta" [ref=e47] [cursor=pointer]:
+          - /url: iphone.html#17-pro-max
+          - heading "iPhone 17 Pro Max" [level=3] [ref=e48]
+          - img "iPhone 17 Pro Max" [ref=e50]
+          - generic [ref=e51]: sob consulta
+        - link "iPhone 17 Pro iPhone 17 Pro sob consulta" [ref=e56] [cursor=pointer]:
+          - /url: iphone.html#17-pro
+          - heading "iPhone 17 Pro" [level=3] [ref=e57]
+          - img "iPhone 17 Pro" [ref=e59]
+          - generic [ref=e60]: sob consulta
+        - link "iPhone Air iPhone Air sob consulta" [ref=e65] [cursor=pointer]:
+          - /url: iphone.html#air
+          - heading "iPhone Air" [level=3] [ref=e66]
+          - img "iPhone Air" [ref=e68]
+          - generic [ref=e69]: sob consulta
+        - link "iPhone 17 iPhone 17 sob consulta" [ref=e74] [cursor=pointer]:
+          - /url: iphone.html#17
+          - heading "iPhone 17" [level=3] [ref=e75]
+          - img "iPhone 17" [ref=e77]
+          - generic [ref=e78]: sob consulta
+        - link "iPhone 16e iPhone 16e sob consulta" [ref=e83] [cursor=pointer]:
+          - /url: iphone.html#16e
+          - heading "iPhone 16e" [level=3] [ref=e84]
+          - img "iPhone 16e" [ref=e86]
+          - generic [ref=e87]: sob consulta
+      - paragraph [ref=e92]: Também temos iPhone 15 e 16. Consulte cores e armazenamento no WhatsApp.
+    - region [ref=e93]:
+      - generic [ref=e94]:
+        - generic [ref=e95]:
+          - heading "iPhone 17 Pro e Pro Max." [level=2] [ref=e97]
+          - generic [ref=e98]:
+            - paragraph [ref=e99]: Corpo de alumínio, três câmeras de 48 MP e zoom óptico de 4x. Em 6,3" ou 6,9".
+            - generic "Cores disponíveis" [ref=e100]:
+              - generic [ref=e101]: Azul profundo
+              - generic [ref=e103]: Laranja cósmico
+              - generic [ref=e105]: Prateado
+            - link "Consultar valor" [ref=e107] [cursor=pointer]:
+              - /url: https://wa.me/5565998078968?text=Ol%C3%A1!%20Quero%20saber%20o%20valor%20do%20iPhone%2017%20Pro%20%2F%20Pro%20Max.
+        - img "iPhone 17 Pro em azul profundo, laranja cósmico e prateado" [ref=e111]
+        - generic [ref=e112]:
+          - generic [ref=e113]:
+            - generic [ref=e114]: A19 Pro
+            - text: chip dos dois modelos
+          - generic [ref=e115]:
+            - generic [ref=e116]: 3 × 48 MP
+            - text: principal, ultra-angular e teleobjetiva
+          - generic [ref=e117]:
+            - generic [ref=e118]: 6,3" · 6,9"
+            - text: 17 Pro e 17 Pro Max
+    - generic [ref=e120]:
+      - generic:
+        - img "iPhone Air de lado nas quatro cores"
+      - generic [ref=e121]:
+        - heading "O mais fino de todos." [level=2] [ref=e122]
+        - generic [ref=e123]:
+          - generic [ref=e124]:
+            - generic [ref=e125]: 5,6mm
+            - generic [ref=e126]: de espessura
+          - generic [ref=e127]:
+            - generic [ref=e128]: 6,5"
+            - generic [ref=e129]: de tela, com 120 Hz
+          - generic [ref=e130]:
+            - generic [ref=e131]: "4"
+            - generic [ref=e132]: "cores: azul-céu, dourado-claro, branco-nuvem e preto-espacial"
+        - link "Ver o iPhone Air" [ref=e133] [cursor=pointer]:
+          - /url: iphone.html#air
+    - generic [ref=e135]:
+      - article [ref=e136]:
+        - heading "AirPods Pro 3, AirPods 4 e Max." [level=2] [ref=e137]
+        - paragraph [ref=e138]: Cancelamento de ruído, estojo com USB-C e o Max em cinco cores.
+        - link "Ver AirPods" [ref=e139] [cursor=pointer]:
+          - /url: acessorios.html#airpods
+        - img "AirPods Pro 3 com o estojo aberto" [ref=e144]
+      - article [ref=e145]:
+        - heading "iPad Air." [level=2] [ref=e146]
+        - paragraph [ref=e147]: Consulte tamanho, cor e armazenamento.
+        - link "Ver iPad" [ref=e148] [cursor=pointer]:
+          - /url: acessorios.html#ipad
+        - img "iPad Air em quatro cores" [ref=e153]
+    - generic [ref=e155]:
+      - generic [ref=e156]:
+        - generic [ref=e157]:
+          - heading "Capinhas e MagSafe." [level=2] [ref=e158]
+          - paragraph [ref=e159]: Capinha, película, carregador e cabo para o seu modelo. Tudo sob consulta.
+        - link "Todos os acessórios" [ref=e160] [cursor=pointer]:
+          - /url: acessorios.html
+      - generic [ref=e164]:
+        - link "iPhone 17 Pro com capinha de silicone azul Silicone 17 Pro sob consulta" [ref=e165] [cursor=pointer]:
+          - /url: acessorios.html#capinhas
+          - img "iPhone 17 Pro com capinha de silicone azul" [ref=e166]
+          - heading "Silicone 17 Pro" [level=3] [ref=e167]
+          - generic [ref=e168]: sob consulta
+        - link "iPhone 17 com capinha de silicone roxa Silicone 17 sob consulta" [ref=e169] [cursor=pointer]:
+          - /url: acessorios.html#capinhas
+          - img "iPhone 17 com capinha de silicone roxa" [ref=e170]
+          - heading "Silicone 17" [level=3] [ref=e171]
+          - generic [ref=e172]: sob consulta
+        - link "iPhone Air com a bateria MagSafe encaixada Bateria MagSafe sob consulta" [ref=e173] [cursor=pointer]:
+          - /url: acessorios.html#energia
+          - img "iPhone Air com a bateria MagSafe encaixada" [ref=e174]
+          - heading "Bateria MagSafe" [level=3] [ref=e175]
+          - generic [ref=e176]: sob consulta
+      - generic [ref=e178]:
+        - generic [ref=e180]:
+          - generic [ref=e181]: Carregadores
+          - generic [ref=e182]: Fonte para carregar na tomada.
+        - generic [ref=e184]:
+          - generic [ref=e185]: Cabos
+          - generic [ref=e186]: Para carga e transferência.
+        - generic [ref=e188]:
+          - generic [ref=e189]: Películas
+          - generic [ref=e190]: Proteção para a tela.
+        - generic [ref=e192]:
+          - generic [ref=e193]: AirTag
+          - generic [ref=e194]: Localizador da Apple.
+    - generic [ref=e196]:
+      - generic [ref=e197]:
+        - heading "Quebrou? Manda foto." [level=2] [ref=e198]
+        - paragraph [ref=e199]: Mande a foto e o modelo no WhatsApp. Respondemos com o valor e o que precisa ser feito.
+        - link "Quebrou? Manda foto no WhatsApp" [ref=e200] [cursor=pointer]:
+          - /url: https://wa.me/5565998078968?text=Ol%C3%A1!%20Meu%20iPhone%20est%C3%A1%20com%20problema.%20Vou%20mandar%20a%20foto.
+        - paragraph [ref=e205]:
+          - text: "Conserto em Sapezal-MT. Prazo e garantia:"
+          - generic [ref=e206]: a definir
+      - list [ref=e207]:
+        - listitem [ref=e208]:
+          - generic [ref=e212]:
+            - generic [ref=e213]: Troca de tela
+            - text: Vidro trincado, toque falhando ou manchas.
+          - emphasis [ref=e214]:
+            - text: Prazo
+            - generic [ref=e215]: a definir
+        - listitem [ref=e216]:
+          - generic [ref=e220]:
+            - generic [ref=e221]: Troca de bateria
+            - text: Descarrega rápido ou desliga sozinho.
+          - emphasis [ref=e222]:
+            - text: Prazo
+            - generic [ref=e223]: a definir
+        - listitem [ref=e224]:
+          - generic [ref=e228]:
+            - generic [ref=e229]: Conector de carga
+            - text: Não carrega ou só carrega em uma posição.
+          - emphasis [ref=e230]:
+            - text: Prazo
+            - generic [ref=e231]: a definir
+        - listitem [ref=e232]:
+          - generic [ref=e237]:
+            - generic [ref=e238]: Câmera
+            - text: Foto embaçada, tremendo ou tela preta.
+          - emphasis [ref=e239]:
+            - text: Prazo
+            - generic [ref=e240]: a definir
+        - listitem [ref=e241]:
+          - generic [ref=e247]:
+            - generic [ref=e248]: Traseira de vidro
+            - text: Vidro de trás quebrado.
+          - emphasis [ref=e249]:
+            - text: Prazo
+            - generic [ref=e250]: a definir
+        - listitem [ref=e251]:
+          - generic [ref=e256]:
+            - generic [ref=e257]: Diagnóstico
+            - text: Não sabe o que é? A gente abre e olha.
+          - emphasis [ref=e258]:
+            - text: Prazo
+            - generic [ref=e259]: a definir
+    - generic [ref=e261]:
+      - generic [ref=e262]:
+        - figure [ref=e263]:
+          - img "Fachada da iPlanet Store em Sapezal, com o letreiro dourado" [ref=e264]
+        - figure [ref=e265]:
+          - img "Mesa de madeira com caixas de iPad, AirPods Max e iPhone" [ref=e266]
+      - generic [ref=e267]:
+        - heading "Em Sapezal, desde 2025." [level=2] [ref=e268]
+        - generic [ref=e269]:
+          - generic [ref=e270]:
+            - generic [ref=e271]: Fechado agora
+            - list [ref=e272]:
+              - listitem [ref=e273]:
+                - generic [ref=e274]: Segunda a sexta
+                - generic [ref=e275]: 9h às 18h
+              - listitem [ref=e276]:
+                - generic [ref=e277]: Sábado
+                - generic [ref=e278]: 9h às 13h
+              - listitem [ref=e279]:
+                - generic [ref=e280]: Domingo
+                - generic [ref=e281]: Fechado
+          - generic [ref=e282]:
+            - generic [ref=e283]: Endereço
+            - paragraph [ref=e284]:
+              - generic [ref=e285]: a definir
+            - generic [ref=e286]: WhatsApp
+            - paragraph [ref=e287]:
+              - link "(65) 99807-8968" [ref=e288] [cursor=pointer]:
+                - /url: https://wa.me/5565998078968?text=Ol%C3%A1!%20Vim%20pelo%20site.
+            - generic [ref=e289]: Instagram
+            - paragraph [ref=e290]:
+              - link "@iplanetstore.sapezal" [ref=e291] [cursor=pointer]:
+                - /url: https://www.instagram.com/iplanetstore.sapezal
+        - generic [ref=e292]:
+          - generic [ref=e293]:
+            - generic [ref=e298]: Sapezal-MT
+            - link "abrir no Google Maps" [ref=e299] [cursor=pointer]:
+              - /url: https://www.google.com/maps?q=Sapezal,+MT
+          - iframe [ref=e300]
+    - generic [ref=e302]:
+      - generic [ref=e303]:
+        - heading "Pedido feito pelo WhatsApp." [level=2] [ref=e304]
+        - paragraph [ref=e305]: Parcelas em até 18x.
+      - generic [ref=e306]:
+        - generic [ref=e307]:
+          - heading "Escolha o aparelho" [level=3] [ref=e311]
+          - paragraph [ref=e312]: Escolha modelo, cor e armazenamento.
+        - generic [ref=e313]:
+          - heading "Chame no WhatsApp" [level=3] [ref=e317]
+          - paragraph [ref=e318]: Diga modelo, cor e armazenamento. Respondemos com o valor.
+        - generic [ref=e319]:
+          - heading "Combine e retire" [level=3] [ref=e324]
+          - paragraph [ref=e325]:
+            - text: "Pagamento em até 18x. Forma de entrega:"
+            - generic [ref=e326]: a definir
+    - generic [ref=e329]:
+      - generic [ref=e330]:
+        - heading "Diga o modelo. A gente responde." [level=2] [ref=e331]
+        - paragraph [ref=e332]: Valor, cores e parcelas na conversa, sem cadastro.
+        - link "Chamar no WhatsApp" [ref=e333] [cursor=pointer]:
+          - /url: https://wa.me/5565998078968?text=Ol%C3%A1!%20Quero%20or%C3%A7amento%20do%20iPhone%20
+      - img "iPhone 17 em lavanda, azul-névoa, preto, branco e sálvia" [ref=e337]
+  - contentinfo [ref=e338]:
+    - generic [ref=e339]:
+      - generic [ref=e340]:
+        - generic [ref=e341]:
+          - link "iPlanet Store, página inicial" [ref=e342] [cursor=pointer]:
+            - /url: index.html
+            - generic [ref=e344]:
+              - generic [ref=e345]: iPlanet Store
+              - generic [ref=e346]: Sapezal-MT
+          - paragraph [ref=e347]: Especialista em iPhone em Sapezal desde 2025. Compra, venda e assistência. Parcelamos em até 18x.
+        - generic [ref=e348]:
+          - heading "Contato" [level=4] [ref=e349]
+          - list [ref=e350]:
+            - listitem [ref=e351]:
+              - link "WhatsApp (65) 99807-8968" [ref=e352] [cursor=pointer]:
+                - /url: https://wa.me/5565998078968
+            - listitem [ref=e353]:
+              - link "Instagram @iplanetstore.sapezal" [ref=e354] [cursor=pointer]:
+                - /url: https://www.instagram.com/iplanetstore.sapezal
+            - listitem [ref=e355]:
+              - text: "Endereço:"
+              - generic [ref=e356]: a definir
+        - generic [ref=e357]:
+          - heading "Horário" [level=4] [ref=e358]
+          - list [ref=e359]:
+            - listitem [ref=e360]: "Segunda a sexta: 9h às 18h"
+            - listitem [ref=e361]: "Sábado: 9h às 13h"
+            - listitem [ref=e362]: "Domingo: Fechado"
+        - generic [ref=e363]:
+          - heading "Páginas" [level=4] [ref=e364]
+          - list [ref=e365]:
+            - listitem [ref=e366]:
+              - link "iPhone" [ref=e367] [cursor=pointer]:
+                - /url: iphone.html
+            - listitem [ref=e368]:
+              - link "Acessórios" [ref=e369] [cursor=pointer]:
+                - /url: acessorios.html
+            - listitem [ref=e370]:
+              - link "Assistência" [ref=e371] [cursor=pointer]:
+                - /url: assistencia.html
+            - listitem [ref=e372]:
+              - link "A loja" [ref=e373] [cursor=pointer]:
+                - /url: loja.html
+            - listitem [ref=e374]:
+              - link "Orçamento" [ref=e375] [cursor=pointer]:
+                - /url: orcamento.html
+            - listitem [ref=e376]:
+              - link "Créditos" [ref=e377] [cursor=pointer]:
+                - /url: creditos.html
+      - generic [ref=e378]:
+        - generic [ref=e379]: "Imagens ilustrativas. Imagens de produto: Apple Newsroom (material de divulgação). Marcas pertencentes à Apple Inc."
+        - generic [ref=e380]: © 2026 iPlanet Store · Sapezal-MT

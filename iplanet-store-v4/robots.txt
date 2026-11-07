@@ -1,0 +1,5 @@
+# Prévia: não indexar. No lançamento troque por Allow: / e libere os robôs de IA.
+User-agent: *
+Disallow: /
+
+Sitemap: https://benatti-creator.github.io/previas/iplanet-store-v4/sitemap.xml

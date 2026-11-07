@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Montar orçamento | iPlanet Store Sapezal</title>
+<meta name="description" content="Escolha o iPhone, a cor e o armazenamento, simule as parcelas em até 18x e mande o pedido pronto no WhatsApp da iPlanet Store.">
+<meta name="robots" content="noindex, nofollow">
+<link rel="canonical" href="https://benatti-creator.github.io/previas/iplanet-store-v4/orcamento.html">
+<meta property="og:type" content="website"><meta property="og:url" content="https://benatti-creator.github.io/previas/iplanet-store-v4/orcamento.html">
+<meta property="og:title" content="Montar orçamento | iPlanet Store"><meta property="og:description" content="Escolha, simule em até 18x e mande no WhatsApp."><meta property="og:image" content="https://benatti-creator.github.io/previas/iplanet-store-v4/img/oficiais/i17-hero-1600.webp"><meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="favicon.png" type="image/png">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Início","item":"https://benatti-creator.github.io/previas/iplanet-store-v4/"},{"@type":"ListItem","position":2,"name":"Orçamento","item":"https://benatti-creator.github.io/previas/iplanet-store-v4/orcamento.html"}]}</script>
+</head>
+<body data-pag="orcamento" class="tem-barra">
+<header id="hd" class="hd"></header>
+<main>
+<section class="ph" style="padding-bottom:32px">
+  <div class="wrap">
+    <p class="crumb"><a href="index.html">Início</a> / Orçamento</p>
+    <h1 class="t-l">Monte seu pedido.</h1>
+    <p class="lead">Seu pedido chega pronto no WhatsApp. O valor vem na resposta.</p>
+  </div>
+</section>
+<section style="padding-bottom:96px">
+  <div class="wrap orc">
+    <div>
+      <div class="passo-o"><h2><em>1</em>O que você procura?</h2><div class="chips" id="o-item"></div></div>
+      <div class="passo-o" id="b-mod"><h2><em>2</em>Modelo</h2><div class="chips" id="o-mod"></div></div>
+      <div class="passo-o" id="b-cor"><h2><em>3</em>Cor e armazenamento</h2><div class="chips" id="o-cor" style="margin-bottom:14px"></div><div class="chips" id="o-gb"></div></div>
+      <div class="passo-o" id="b-troca"><h2><em>4</em>Quer avaliar seu aparelho na troca? Qual é?</h2><input type="text" id="o-troca" placeholder="Opcional. Ex.: iPhone 13, 128 GB" aria-label="Aparelho atual (opcional)"></div>
+      <div class="passo-o" id="b-sim"><h2><em>5</em>Simular parcelas</h2>
+        <div class="sim">
+          <div><label for="o-valor">Valor do aparelho (R$)</label><input type="number" id="o-valor" min="0" step="50" placeholder="Ex.: 7000" inputmode="numeric"></div>
+          <div><label for="o-x">Parcelas</label><select id="o-x"></select></div>
+          <div class="sim__r"><span class="mut" id="o-sx">18x de</span><b id="o-parc">R$ —</b></div>
+        </div>
+        <p class="aviso">Simulação com taxas de exemplo. O valor final vem no orçamento.</p>
+      </div>
+    </div>
+    <aside class="resumo" aria-label="Resumo do pedido">
+      <div class="resumo__img" id="r-img"></div>
+      <div class="resumo__b">
+        <h3 id="r-nome"></h3>
+        <ul class="resumo__l" id="r-l"></ul>
+        <a class="btn btn--p" id="r-env" href="#" target="_blank" rel="noopener">Enviar no WhatsApp</a>
+        <p class="aviso">Preço sob consulta. Parcelamos em até 18x.</p>
+      </div>
+      <div class="resumo__x">
+        <p><b>WhatsApp</b><br><a class="lnk" data-wa="Olá! Vim pelo site." href="#">(65) 99807-8968</a></p>
+        <p><b>Horário</b></p><ul class="hr" data-hr></ul>
+      </div>
+    </aside>
+  </div>
+</section>
+</main>
+<div class="barra" aria-label="Resumo"><div><b id="b-nome"></b><span class="mut" id="b-det"></span></div><a class="btn btn--p" id="b-env" href="#" target="_blank" rel="noopener">Enviar</a></div>
+<footer id="ft"></footer>
+<script src="dados.js"></script>
+<script src="app.js"></script>
+<script>
+(function(){
+  var $=function(s){return document.getElementById(s)};
+  var itens=[['iphone','iPhone']].concat(ACESSORIOS.map(function(a){return [a.id,a.nome]})).concat(ITENS_ICONE.map(function(a){return ['ic-'+a.nome,a.nome]}));
+  var st={item:'iphone',m:0,c:0,g:0};
+  var h=location.hash.slice(1); IPHONES.forEach(function(m,k){if(m.id===h) st.m=k;});
+  function gbTxt(n){return n>=1024?(n/1024)+' TB':n+' GB'}
+  function chips(el,arr,sel,key){ $(el).innerHTML=arr.map(function(x,k){return '<button class="pill" data-v="'+k+'" aria-pressed="'+(k===sel)+'">'+x+'</button>'}).join(''); $(el).onclick=function(e){var b=e.target.closest('.pill'); if(!b) return; st[key]=+b.dataset.v; if(key==='m'){st.c=0;st.g=0;} if(key==='itemI'){st.item=itens[st.itemI][0];} draw();}; }
+  $('o-x').innerHTML=Object.keys(TAXAS_EXEMPLO).map(function(n){return '<option value="'+n+'"'+(n==='18'?' selected':'')+'>'+n+'x</option>'}).join('');
+  function brl(v){return v.toLocaleString('pt-BR',{style:'currency',currency:'BRL'})}
+  function draw(){
+    st.itemI=itens.findIndex(function(x){return x[0]===st.item});
+    chips('o-item',itens.map(function(x){return x[1]}),st.itemI,'itemI');
+    var isI=st.item==='iphone'; $('b-mod').style.display=$('b-cor').style.display=isI?'':'none';
+    var m=IPHONES[st.m], nome, det=[], img='', k=false;
+    if(isI){
+      chips('o-mod',IPHONES.map(function(x){return x.curto}),st.m,'m');
+      chips('o-cor',m.cores.map(function(x){return '<span style="display:inline-block;width:14px;height:14px;border-radius:50%;background:'+x[1]+';box-shadow:inset 0 0 0 1px rgba(0,0,0,.2);margin-right:8px;vertical-align:-1px"></span>'+x[0]}),st.c,'c');
+      chips('o-gb',m.gb.map(gbTxt),st.g,'g');
+      nome=m.nome; det=[['Cor',m.cores[st.c][0]],['Armazenamento',gbTxt(m.gb[st.g])]]; img=foto(m.foto,m.nome,'400px'); k=!!m.escuro;
+    } else {
+      var a=ACESSORIOS.find(function(x){return x.id===st.item});
+      nome=itens[st.itemI][1]; if(st.item==='airpods-max') det.push(['Cor','combine no WhatsApp']); if(a) img=foto(a.foto,a.nome,'400px'); else img='<span style="color:#B8913A">'+ic('plug').replace('<svg','<svg width="64" height="64"')+'</span>';
+    }
+    var big=isI||st.item==='ipad'; $('b-troca').style.display=$('b-sim').style.display=big?'':'none';
+    var tr=big?$('o-troca').value.trim():''; if(tr) det.push(['Avaliar na troca',tr]);
+    var v=parseFloat($('o-valor').value), x=+$('o-x').value;
+    $('o-sx').textContent=x+'x de';
+    $('o-parc').textContent=v>0?brl(v*(1+TAXAS_EXEMPLO[x]/100)/x):'R$ —';
+    if(big) det.push(['Parcelas','até '+x+'x']); det.push(['Valor','sob consulta']);
+    $('r-img').classList.toggle('k',k); $('r-img').innerHTML=img; $('r-nome').textContent=nome;
+    $('r-l').innerHTML=det.map(function(d){return '<li><span>'+d[0]+'</span><b>'+d[1]+'</b></li>'}).join('');
+    var msg=isI?'Olá! Quero orçamento do '+nome+', cor '+m.cores[st.c][0]+', '+gbTxt(m.gb[st.g])+'. Parcelas: até '+x+'x.':'Olá! Quero orçamento de: '+nome+'.'+(big?' Parcelas: até '+x+'x.':'');
+    if(tr) msg+=' Quero avaliar meu aparelho na troca: '+tr+'.';
+    $('r-env').href=$('b-env').href=waLink(msg); $('r-env').innerHTML=ic('wa')+'Enviar no WhatsApp'; $('b-env').innerHTML=ic('wa')+'Enviar';
+    $('b-nome').textContent=nome; $('b-det').textContent=isI?m.cores[st.c][0]+' · '+gbTxt(m.gb[st.g]):'sob consulta';
+  }
+  ['o-troca','o-valor','o-x'].forEach(function(i){$(i).addEventListener('input',draw)});
+  draw();
+})();
+</script>
+</body>
+</html>

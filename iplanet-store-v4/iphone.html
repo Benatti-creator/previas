@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>iPhone 17, Air, 17 Pro e 16e | iPlanet Store Sapezal</title>
+<meta name="description" content="Escolha o seu iPhone na iPlanet Store em Sapezal-MT: 17 Pro Max, 17 Pro, Air, 17 e 16e. Cores, armazenamento e comparativo. Valor sob consulta, até 18x.">
+<meta name="robots" content="noindex, nofollow">
+<link rel="canonical" href="https://benatti-creator.github.io/previas/iplanet-store-v4/iphone.html">
+<meta property="og:type" content="website"><meta property="og:url" content="https://benatti-creator.github.io/previas/iplanet-store-v4/iphone.html">
+<meta property="og:title" content="iPhones na iPlanet Store Sapezal"><meta property="og:description" content="17 Pro Max, 17 Pro, Air, 17 e 16e. Valor sob consulta, até 18x."><meta property="og:image" content="https://benatti-creator.github.io/previas/iplanet-store-v4/img/oficiais/pro-cores-1600.webp"><meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="favicon.png" type="image/png">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"ItemList","name":"iPhones na iPlanet Store","itemListElement":[{"@type":"ListItem","position":1,"name":"iPhone 17 Pro Max"},{"@type":"ListItem","position":2,"name":"iPhone 17 Pro"},{"@type":"ListItem","position":3,"name":"iPhone Air"},{"@type":"ListItem","position":4,"name":"iPhone 17"},{"@type":"ListItem","position":5,"name":"iPhone 16e"}]}</script>
+</head>
+<body data-pag="iphone">
+<header id="hd" class="hd"></header>
+<main>
+<section class="ph" style="padding-bottom:24px">
+  <div class="wrap">
+    <p class="crumb"><a href="index.html">Início</a> / iPhone</p>
+    <h1 class="t-l">Qual iPhone é o seu?</h1>
+  </div>
+</section>
+
+<section style="padding-bottom:96px">
+  <div class="wrap sel">
+    <div class="palco" id="palco"></div>
+    <div>
+      <div class="pills" id="pills" role="group" aria-label="Modelo"></div>
+      <h2 class="t-m" id="s-nome"></h2>
+      <p class="sel__f" id="s-frase"></p>
+      <div class="opt"><span>Cor</span><div class="opt__cor" id="s-cores"></div><p class="opt__nome" id="s-cor"></p></div>
+      <div class="opt"><span>Armazenamento</span><div class="chips" id="s-gb"></div></div>
+      <div class="preco"><span class="mut">Valor</span><b id="s-preco">sob consulta</b></div>
+      <div class="btns"><a class="btn btn--p" id="s-quero" href="#" target="_blank" rel="noopener">Quero esse</a><a class="btn btn--s" href="orcamento.html" id="s-orc">Simular parcelas</a></div>
+      <p class="aviso">Parcelamos em até 18x. Imagens ilustrativas.</p>
+    </div>
+  </div>
+</section>
+
+<section class="sec sec--w">
+  <div class="wrap">
+    <div class="sec__hd rv"><h2 class="t-l">Os cinco, lado a lado.</h2><p class="lead" style="max-width:22em">Do 16e ao 17 Pro Max. Valor sob consulta.</p></div>
+    <div class="tab-wrap rv"><table class="cmp" id="cmp"></table></div>
+    <div class="cmp-cards" id="cmp-cards"></div>
+    <div class="tbm rv"><span>Também temos <b>iPhone 15 e 16</b>, consulte.</span><a class="btn btn--p" data-wa="Olá! Quero saber do iPhone 15 / 16." data-ic="wa" href="#">Perguntar no WhatsApp</a></div>
+  </div>
+</section>
+
+<section class="sec">
+  <div class="wrap">
+    <div class="sec__hd rv"><h2 class="t-m">De perto</h2></div>
+    <div class="galeria">
+      <figure class="k rv"><img src="img/oficiais/pro-camera-800.webp" srcset="img/oficiais/pro-camera-800.webp 800w, img/oficiais/pro-camera-1600.webp 1600w" sizes="(max-width:640px) 100vw, 58vw" width="1600" height="900" alt="Conjunto de câmeras do iPhone 17 Pro laranja cósmico" loading="lazy"><figcaption><b>Câmeras do 17 Pro</b>Três câmeras de 48 MP, com teleobjetiva de 4x.</figcaption></figure>
+      <figure class="l rv"><img src="img/oficiais/air-perfil-800.webp" srcset="img/oficiais/air-perfil-800.webp 800w, img/oficiais/air-perfil-1600.webp 1600w" sizes="(max-width:640px) 100vw, 40vw" width="1600" height="1143" alt="iPhone Air visto de lado, segurado entre dois dedos" loading="lazy"><figcaption><b>iPhone Air de lado</b>5,6 mm de espessura.</figcaption></figure>
+    </div>
+  </div>
+</section>
+</main>
+<footer id="ft"></footer>
+<script src="dados.js"></script>
+<script src="app.js"></script>
+<script>
+(function(){
+  var M=IPHONES, i=0, c=0, g=0;
+  var id=location.hash.slice(1); M.forEach(function(m,k){ if(m.id===id) i=k; });
+  var $=function(s){return document.getElementById(s)};
+  var palco=$('palco');
+  $('pills').innerHTML=M.map(function(m,k){return '<button class="pill" data-k="'+k+'" aria-pressed="false">'+m.curto+'</button>'}).join('');
+  $('pills').addEventListener('click',function(e){var b=e.target.closest('.pill'); if(!b) return; i=+b.dataset.k; c=0; g=0; history.replaceState(null,'','#'+M[i].id); draw(true);});
+  function gbTxt(n){return n>=1024?(n/1024)+' TB':n+' GB'}
+  function draw(anim){
+    var m=M[i];
+    [].forEach.call($('pills').children,function(b,k){b.setAttribute('aria-pressed',k===i)});
+    palco.classList.toggle('k',!!m.escuro);
+    var html=foto(m.foto,m.nome,'(max-width:980px) 100vw, 58vw',{eager:true});
+    if(anim && palco.firstChild){ palco.firstChild.classList.add('out'); setTimeout(function(){palco.innerHTML=html},180);} else palco.innerHTML=html;
+    $('s-nome').textContent=m.nome; $('s-frase').textContent=m.frase;
+    $('s-cores').innerHTML=m.cores.map(function(x,k){return '<button class="sw" style="background:'+x[1]+'" aria-label="'+x[0]+'" aria-pressed="'+(k===c)+'" data-c="'+k+'"></button>'}).join('');
+    $('s-cor').textContent=m.cores[c][0];
+    $('s-gb').innerHTML=m.gb.map(function(x,k){return '<button class="pill" aria-pressed="'+(k===g)+'" data-g="'+k+'">'+gbTxt(x)+'</button>'}).join('');
+    $('s-preco').textContent=m.preco||'sob consulta';
+    $('s-quero').href=waLink('Olá! Quero orçamento do '+m.nome+', cor '+m.cores[c][0]+', '+gbTxt(m.gb[g]));
+    $('s-quero').innerHTML=ic('wa')+'Quero esse';
+    $('s-orc').href='orcamento.html#'+m.id;
+  }
+  $('s-cores').addEventListener('click',function(e){var b=e.target.closest('.sw'); if(b){c=+b.dataset.c; draw();}});
+  $('s-gb').addEventListener('click',function(e){var b=e.target.closest('.pill'); if(b){g=+b.dataset.g; draw();}});
+  draw();
+  var rows=[['Tela','tela'],['Chip','chip'],['Câmera','camera'],['Bateria','bateria'],['Armazenamento','gb'],['Valor','preco']];
+  $('cmp').innerHTML='<thead><tr><th scope="col"><span class="sr">Item</span></th>'+M.map(function(m){return '<th scope="col">'+m.nome+'<br><span class="cons">'+(m.preco||'sob consulta')+'</span></th>'}).join('')+'</tr></thead><tbody>'+rows.map(function(r){return '<tr><th scope="row">'+r[0]+'</th>'+M.map(function(m){var v=m[r[1]]; if(r[1]==='gb') v=m.gb.map(gbTxt).join(', '); if(r[1]==='preco') v=v||'sob consulta'; if(v==='consulte') v='<span class="mut">consulte</span>'; return '<td>'+v+'</td>'}).join('')+'</tr>'}).join('')+'</tbody>';
+  $('cmp-cards').innerHTML=M.map(function(m){return '<article class="cmp-c"><h3>'+m.nome+'</h3><dl>'+rows.filter(function(r){return r[1]!=='preco'}).map(function(r){var v=m[r[1]]; if(r[1]==='gb') v=m.gb.map(gbTxt).join(', '); return '<dt>'+r[0]+'</dt><dd>'+v+'</dd>'}).join('')+'<dt>Valor</dt><dd>'+(m.preco||'sob consulta')+'</dd></dl></article>'}).join('');
+})();
+</script>
+</body>
+</html>
