@@ -51,42 +51,43 @@ window.CATEGORIAS = [
    condicao     = "Novo", "Lacrado" ou "Seminovo". Vazio = "A definir".
    cores        = [nome, cor em hex] — a bolinha e a cor da imagem ilustrativa.
    foto         = caminho da foto real (ex.: "img/iphone-17-pro.webp"). Vazio = imagem ilustrativa.
+   tela         = tamanho da tela (aparece no comparador).
    img          = desenho ilustrativo (não mexer). */
 window.MODELOS_IPHONE = ["iPhone 17 Pro Max", "iPhone 17 Pro", "iPhone Air", "iPhone 17", "iPhone 16", "iPhone 16e", "iPhone 15", "Outro modelo"];
 var MI = window.MODELOS_IPHONE;
 
 window.PRODUTOS = [
-  { id: "iphone-17-pro-max", cat: "iphone", nome: "iPhone 17 Pro Max", destaque: true,
+  { id: "iphone-17-pro-max", cat: "iphone", tela: '6,9"', nome: "iPhone 17 Pro Max", destaque: true,
     texto: "A bateria que mais dura da linha e a tela maior, para quem vive no celular.",
     var: { rotulo: "Memória", valores: ["256 GB", "512 GB", "1 TB", "2 TB"] }, precos: {},
     cores: [["Laranja-cósmico", "#d8743c"], ["Azul-profundo", "#2f3d5a"], ["Prateado", "#d8d9dc"]],
     condicao: "", foto: "", img: { t: "iphone", cam: "pro" } },
-  { id: "iphone-17-pro", cat: "iphone", nome: "iPhone 17 Pro", destaque: true,
+  { id: "iphone-17-pro", cat: "iphone", tela: '6,3"', nome: "iPhone 17 Pro", destaque: true,
     texto: "Câmera tripla de nível Pro num tamanho que cabe no bolso da calça.",
     var: { rotulo: "Memória", valores: ["256 GB", "512 GB", "1 TB"] }, precos: {},
     cores: [["Azul-profundo", "#2f3d5a"], ["Laranja-cósmico", "#d8743c"], ["Prateado", "#d8d9dc"]],
     condicao: "", foto: "", img: { t: "iphone", cam: "pro" } },
-  { id: "iphone-air", cat: "iphone", nome: "iPhone Air", destaque: true,
+  { id: "iphone-air", cat: "iphone", tela: '6,5"', nome: "iPhone Air", destaque: true,
     texto: "O mais fino e leve: some no bolso e não pesa na mão.",
     var: { rotulo: "Memória", valores: ["256 GB", "512 GB", "1 TB"] }, precos: {},
     cores: [["Azul-céu", "#c6d9ea"], ["Dourado-claro", "#e6d5b0"], ["Branco-nuvem", "#eeece6"], ["Preto-espacial", "#2a2b2f"]],
     condicao: "", foto: "", img: { t: "iphone", cam: "air" } },
-  { id: "iphone-17", cat: "iphone", nome: "iPhone 17", destaque: true,
+  { id: "iphone-17", cat: "iphone", tela: '6,3"', nome: "iPhone 17", destaque: true,
     texto: "Tela de 120 Hz e 256 GB de entrada: espaço de sobra para foto e vídeo.",
     var: { rotulo: "Memória", valores: ["256 GB", "512 GB"] }, precos: {},
     cores: [["Lavanda", "#cbbde0"], ["Sálvia", "#b7c6a3"], ["Azul-névoa", "#a8bed6"], ["Branco", "#f1f1ee"], ["Preto", "#2b2b2d"]],
     condicao: "", foto: "", img: { t: "iphone", cam: "duo" } },
-  { id: "iphone-16", cat: "iphone", nome: "iPhone 16",
+  { id: "iphone-16", cat: "iphone", tela: '6,1"', nome: "iPhone 16",
     texto: "Botão de câmera e chip rápido por um valor menor que a linha nova.",
     var: { rotulo: "Memória", valores: ["128 GB", "256 GB", "512 GB"] }, precos: {},
     cores: [["Ultramarino", "#5d70de"], ["Verde-acinzentado", "#a8c4b5"], ["Rosa", "#efb8ce"], ["Branco", "#f2f1ec"], ["Preto", "#2c2c2e"]],
     condicao: "", foto: "", img: { t: "iphone", cam: "duo" } },
-  { id: "iphone-16e", cat: "iphone", nome: "iPhone 16e",
+  { id: "iphone-16e", cat: "iphone", tela: '6,1"', nome: "iPhone 16e",
     texto: "A porta de entrada para o iPhone, com bateria que aguenta o dia.",
     var: { rotulo: "Memória", valores: ["128 GB", "256 GB", "512 GB"] }, precos: {},
     cores: [["Branco", "#f2f1ee"], ["Preto", "#2b2b2d"]],
     condicao: "", foto: "", img: { t: "iphone", cam: "uno" } },
-  { id: "iphone-15", cat: "iphone", nome: "iPhone 15",
+  { id: "iphone-15", cat: "iphone", tela: '6,1"', nome: "iPhone 15",
     texto: "Câmera de 48 MP e USB-C: carrega com o mesmo cabo do notebook.",
     var: { rotulo: "Memória", valores: ["128 GB", "256 GB", "512 GB"] }, precos: {},
     cores: [["Rosa", "#ebc9d1"], ["Azul", "#c6d5df"], ["Verde", "#cddbc9"], ["Amarelo", "#f0e3ae"], ["Preto", "#35373b"]],
@@ -184,7 +185,7 @@ window.SERVICOS = [
   { id: "bateria", nome: "Troca de bateria", texto: "Bateria que não segura o dia volta a aguentar do café à noite.", prazo: "", preco: "", garantia: "", img: { t: "s-bateria" } },
   { id: "conector", nome: "Conector de carga", texto: "Cabo que só carrega torto volta a encaixar e carregar de primeira.", prazo: "", preco: "", garantia: "", img: { t: "s-conector" } },
   { id: "camera", nome: "Câmera e vidro da câmera", texto: "Foto embaçada ou lente rachada: troca da câmera ou do vidro da lente.", prazo: "", preco: "", garantia: "", img: { t: "s-camera" } },
-  { id: "agua", nome: "Aparelho que molhou", texto: "Aparelho que molhou tem mais chance de voltar quanto mais cedo chega à loja.", prazo: "", preco: "", garantia: "", img: { t: "s-agua" } },
+  { id: "agua", nome: "Aparelho que molhou", texto: "Avaliação do iPhone que teve contato com água, com o valor passado antes do serviço.", prazo: "", preco: "", garantia: "", img: { t: "s-agua" } },
   { id: "software", nome: "Sistema e backup", texto: "Atualização travada, iCloud, fotos e contatos passados para o aparelho novo.", prazo: "", preco: "", garantia: "", img: { t: "s-software" } }
 ];
 
@@ -203,8 +204,8 @@ window.TAXAS_SAO_EXEMPLO = true; // mude para false quando colocar as taxas reai
 
 /* ---------- Fotos reais da loja (pasta img/) ---------- */
 window.GALERIA = [
-  { arquivo: "img/fachada.webp", titulo: "Loja de porta aberta em Sapezal", texto: "Compra, venda e conserto numa loja só, desde 2025.", cat: "loja", largura: 360, altura: 640 },
-  { arquivo: "img/mesa-produtos.webp", titulo: "iPhone, iPad, AirPods e AirTag na bancada", texto: "iPad, iPhone, AirPods Max e AirTag na bancada de madeira da loja.", cat: "loja", largura: 360, altura: 640 },
+  { arquivo: "img/fachada.webp", titulo: "Loja de porta aberta em Sapezal", texto: "Compra, venda e conserto no mesmo balcão, desde 2025.", cat: "loja", largura: 360, altura: 640 },
+  { arquivo: "img/mesa-produtos.webp", titulo: "iPhone, iPad, AirPods e AirTag no mesmo balcão", texto: "Aparelho, fone e AirTag saem juntos, num orçamento só.", cat: "loja", largura: 360, altura: 640 },
   { arquivo: "img/caixa-ipad.webp", titulo: "iPad para estudo e trabalho", texto: "Tela grande para aula, planilha e desenho.", cat: "ipad", produto: "ipad-pro", largura: 360, altura: 640 },
   { arquivo: "img/iphone-detalhe.webp", titulo: "iPhone na bancada da loja", texto: "Diga o modelo e a memória: o valor do dia chega no WhatsApp.", cat: "iphone", largura: 360, altura: 640 }
 ];
