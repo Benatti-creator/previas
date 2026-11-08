@@ -1,0 +1,15 @@
+# iPlanet Store (Sapezal-MT)
+
+> Especialista em iPhone em Sapezal-MT desde 2025. Compra, venda e assistência. Parcelamos em até 18x. Preços sob consulta.
+
+- WhatsApp: https://wa.me/5565998078968 (65 99807-8968)
+- Instagram: https://www.instagram.com/iplanetstore.sapezal
+- Horário: seg a sex 9h às 18h, sáb 9h às 13h, dom fechado
+
+## Páginas
+- [Início](https://benatti-creator.github.io/previas/iplanet-loja/): modelos, assistência, parcelas, galeria e a loja
+- [Produtos](https://benatti-creator.github.io/previas/iplanet-loja/produtos.html): iPhone 17 Pro Max, 17 Pro, Air, 17, 16e, 16 e 15; AirPods, iPad Air, capinhas, bateria MagSafe, AirTag
+- [Serviços](https://benatti-creator.github.io/previas/iplanet-loja/servicos.html): tela, bateria, conector, câmera, traseira, diagnóstico; compra do seu aparelho (condição a definir)
+- [Preços](https://benatti-creator.github.io/previas/iplanet-loja/precos.html): tabela sob consulta, simulador de parcelas até 18x e montador de orçamento
+- [Galeria](https://benatti-creator.github.io/previas/iplanet-loja/galeria.html): fotos dos produtos e da loja
+- [Contato](https://benatti-creator.github.io/previas/iplanet-loja/contato.html): WhatsApp, Instagram, horário e mapa
